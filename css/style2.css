@@ -2,6 +2,16 @@
   padding-left: 0;
   padding-right: 0; }
 
+.ah-bottomhead-box {
+  width: 100%;
+  min-height: 502px;
+  background: url(../img/ah-topfon.jpg) top center no-repeat;
+  background-size: cover;
+  padding: 10px; }
+
+.ah-bottomhead-box1 {
+  border: 1px solid #fff; }
+
 .ah-head {
   margin-top: 26px; }
 
