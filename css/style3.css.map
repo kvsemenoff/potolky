@@ -1,7 +1,12 @@
 {
 "version": 3,
+<<<<<<< HEAD
 "mappings": "",
 "sources": [],
+=======
+"mappings": "AAAA,WAAW;EACV,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,IAAI",
+"sources": ["style3.scss"],
+>>>>>>> 6c7e204780f0b00a994d81261f09d130bd73d34b
 "names": [],
 "file": "style3.css"
 }

@@ -11,11 +11,20 @@
 .zk_photos{
   h3{
     font-size: 26px;
+    font-family: "PFBeauSansPro-SeBold";
+    color:#000000;
+    padding-bottom: 16px;
+    margin-left: 28px;
+    border-bottom: 2px solid #f3b217; width:155px;
   }
   .zk_photo{
     float: left;
-    margin-right: 3px;
+    margin:25px 3px 0 0;
     width: 168px;
-    height:133px;
+    height:133px;   
   }
+
 }
+ .zk_photo div a:hover {
+      background-color:red;
+    }    
