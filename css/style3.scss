@@ -1,9 +1,53 @@
+/*structure*/
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+.az-header{
+	min-height: 141px;
+	max-height: 242px;
+	border-bottom: 4px solid #f5f6f9;
+	width: 100%;
+	background: #fff;
+	box-shadow: 0px 15px 15px lighten(#b4b4b8, 10%);
+}
+.az-content{
+    width: 100%;
+    min-height:100%;
+    background: url(../img/az-background.jpg) repeat top left;
+}
+.az-buffer{
+    width: 100%;
+    height: 346px;
+}
+.az-footer{
+    height: 346px;
+    margin-top: -386px;
+	padding-top: 40px;
+	position: relative;
+	background: #eeeff3;
+}
 .az-sidebar{
 	background: #fff;
 	width: 100%;
 }
+.az-middle{
+	// padding-top: 27px;
+}
+.az-content-left, .az-content-right{
+	margin-top: 27px;
+	background: #fff;
+	box-shadow: 0px 15px 15px lighten(#b4b4b8, 10%);
+	position: relative;
+	z-index: 1;
+	padding: 8px 7px;
+}
+.az-border{
+	border: 1px solid #eff2f5;
+}
 
-
+/*structure*/
 
 @media only screen and (min-width : 320px) {
 
