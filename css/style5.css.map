@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AACQ,sBAAc;AACd,uBAAe;AACf,uBAAe;AACf,uBAAe;AAEf,sBAAc",
+"mappings": "AACQ,sBAAc;AACd,uBAAe;AACf,uBAAe;AACf,uBAAe;AAEf,sBAAc;;AAKpB,aAAE;EACA,SAAS,EAAE,IAAI;AAEjB,oBAAS;EACP,KAAK,EAAE,IAAI;EACX,YAAY,EAAE,GAAG;EACjB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAC,KAAK",
 "sources": ["style5.scss"],
 "names": [],
 "file": "style5.css"
