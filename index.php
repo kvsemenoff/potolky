@@ -37,6 +37,7 @@
 		<?php require_once('includes/header.php'); ?>
 		<?php require_once('includes/header-bottom.php'); ?>
 	</section>
+	<div class="header-buffer"></div>
 	<section class="az-middle">
 		<div class="container">
 			<div class="row">
@@ -71,11 +72,13 @@
 </body>
 <script>
 	$(document).ready(function(){
-		var left = $('.az-content-left .az-border');
-		var right = $('.az-content-right .az-border');
-		var height = Math.max(left.height(), right.height());
-		left.height(height);
-		right.height(height);
+		if(window.matchMedia('(min-width: 992px)').matches){
+			var left = $('.az-content-left .az-border');
+			var right = $('.az-content-right .az-border');
+			var height = Math.max(left.height(), right.height());
+			left.height(height);
+			right.height(height);
+		}
 	});
 </script>
 </html>
