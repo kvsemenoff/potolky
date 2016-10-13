@@ -1,1 +1,3 @@
-sidebar.php
+<div class="az-sidebar">
+	
+</div>
