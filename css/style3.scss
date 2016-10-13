@@ -6,7 +6,7 @@ body, html{
 }
 .az-header{
 	min-height: 141px;
-	max-height: 242px;
+	// max-height: 242px;
 	border-bottom: 4px solid #f5f6f9;
 	width: 100%;
 	background: #fff;
@@ -28,10 +28,6 @@ body, html{
 	position: relative;
 	background: #eeeff3;
 }
-.az-sidebar{
-	background: #fff;
-	width: 100%;
-}
 .az-middle{
 	// padding-top: 27px;
 }
@@ -49,6 +45,124 @@ body, html{
 
 /*structure*/
 
+
+/*sidebar*/
+.az-sidebar{
+	width: 100%;
+}
+.az-sidebar-inner{
+	padding: 8px 7px;
+}
+.az-banner{
+	width: 100%;
+	position: relative;
+	max-width: 250px;
+	margin: 0 auto;
+	img{
+		width: 100%;
+		height: auto;
+
+	}
+	.az-banner-content{
+		position: absolute;
+		bottom: 50px;
+		padding: 0px 25px;
+		span{
+			font-family: "PFBeauSansPro-Book";
+			font-size: 24px;
+			background: #29292e;
+			line-height: 24px;
+			padding: 5px;
+			display: inline-block;
+			margin-top: 1px;
+			color: #fff;
+			letter-spacing: -0.025em;
+		}
+		a{
+			font-family: "PFBeauSansPro-Book";
+			font-size: 14px;
+			text-transform: uppercase;
+			background: #f3b217;
+			line-height: 14px;
+			padding: 9px 14px;
+			border-radius: 2px;
+			display: inline-block;
+			margin-top: 10px;
+			color: #fff;
+		}
+	}
+}
+.az-title1{
+	height: 45px;
+	line-height: 45px;
+	font-family: "PFBeauSansPro-SeBold";
+	font-size: 24px;
+	color: #000;
+	position: relative;
+	padding: 0px 20px;
+	display: block;
+}
+.az-title1:before{
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	width: 70px;
+	height: 2px;
+	background: #f3b217;
+}
+.az-opros-text{
+	font-family: "PFBeauSansPro-Reg";
+	font-size: 16px;
+	line-height: 20px;
+	padding: 10px 20px;
+	background: #f1f4f6;
+	color: #000;
+}
+/*sidebar*/
+
+
+/*radio*/
+.az-radio{
+	padding: 0 20px;
+	input[type="radio"]{
+		display: none;
+	}
+	label{
+		font-family: "PFBeauSansPro-Reg";
+		font-size: 15px;
+		line-height: 30px;
+		padding-left: 35px;
+		color: #000;
+		position: relative;
+		display: inline-block;
+	}
+	label:before{
+		content: '';
+		position: absolute;
+		top: 50%;
+		left: 0px;
+		transform: translate(0, -50%);
+		background: url(../img/radio.png) no-repeat top left;
+		width: 21px;
+		height: 21px;
+	}
+	input[type="radio"]:checked + label:before{
+		background: url(../img/radioactive.png) no-repeat top left;
+	}
+	.az-num1{
+		background: #f3b217;
+		height: 2px;
+		margin-left: 35px;
+	}
+}
+/*radio*/
+
+/*margins*/
+.az-margin-top35{
+	margin-top: 35px;
+}
+
 @media only screen and (min-width : 320px) {
 
 }
@@ -62,11 +176,28 @@ body, html{
 }
 
 @media only screen and (min-width : 992px) {
-
+	.az-header{
+		max-height: 242px;
+	}
+	.header-buffer{
+		height: 401px;
+	}
+	.az-banner{
+		.az-banner-content{
+			padding: 0px 5px;
+			span{
+				white-space: nowrap;
+			}
+		}
+	}
 }
 
 @media only screen and (min-width : 1200px) {
-
+	.az-banner{
+		.az-banner-content{
+			padding: 0px 25px;
+		}
+	}
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
