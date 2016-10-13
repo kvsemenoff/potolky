@@ -35,6 +35,7 @@
 
 	<?php require_once('includes/header.php'); ?>
 	<?php require_once('includes/header-bottom.php'); ?>
+<section>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-9">
@@ -51,7 +52,7 @@
 			</div>
 		</div>
 	</div>
-	
+</section>	
 	<?php require_once('includes/footer.php'); ?>
 
 	
