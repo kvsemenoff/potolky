@@ -42,7 +42,9 @@
 				font-family: "PFBeauSansPro-Reg";
 				font-size: 14px;
 				line-height: 24px;
+				a{
 				color:#354356;
+				}
 			}
 		}
 	}
@@ -71,23 +73,144 @@
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*============ END ab-footer =============*/
 
 
+/*============= single.php ================*/
+
+.ab-single-wrap{
+	//padding-left:36px;
+	text-align:center;
+	padding-top:21px;
+	.ab-single-txt{
+		span{
+			font-family: "PFBeauSansPro-Reg";
+			font-size: 18px;
+			color:#303032;
+			line-height: 25px;
+		}
+	}
+	.ab-brad-crumps{
+		span{
+			font-family: "Conv_MyriadPro-Regular";
+			font-size: 14px;
+			a{
+				color:#252728;
+			}
+		}
+		span:last-child{
+			color:#5C5F62;
+		}
+		.ab-slash{
+			color: #BBBBBB;
+		}
+	}
+	h1{
+	font-family: "Conv_MyriadPro-Regular";
+	font-size: 33px;
+	color:#000000 !important;
+	line-height: 30px;
+	}
+	.ab-metki{
+		padding-bottom:18px;
+		span{
+			font-family: "PFBeauSansPro-Reg";
+			font-size: 14px;
+			padding-left:20px;
+			a{
+				color:#818487;
+			}
+		}
+		span:first-child{
+			background:url(../img/ab-metka-1.png) no-repeat left center;
+		}
+		span:last-child{
+			margin-left: 10px;
+			background:url(../img/ab-metka-2.png) no-repeat left center;
+		}
+	}
+	.ab-red-ramka{
+		position:relative;
+		border:1px solid #F3B217;
+		padding-top: 34px;
+		padding-bottom:26px;
+		padding-left:10px;
+		text-align: left;
+		margin-bottom: 31px;
+		ul{
+			li{
+				line-height: 26px;
+				span:last-child{
+					font-family: "PFBeauSansPro-Reg";
+					color:#4A4A5E;
+					font-size: 15px;
+				}
+			}
+			.ab-tsifra-2{
+				padding-left:14px;
+			}
+		}
+		.ab-tsifra{
+			font-family: "PFBeauSansPro-SeBold";
+			font-size: 17px;
+			color:#F4B836;
+		}
+		.ab-red-ramka-title{
+			position:absolute;
+			left: 28px;
+			top: -20px;
+			padding:2px 19px;
+			background:#fff;
+			span{
+			  font-family: "PFBeauSansPro-Book";
+			  font-size: 24px;
+			  color:#000000;
+			}
+		}
+	}
+	.ab-single-second-title{
+		position:relative;
+		border-left:6px solid #F3B217;
+		padding-left:18px;
+		margin-top:28px;
+		margin-bottom:25px;
+		span{
+			font-family: "PFBeauSansPro-Reg";
+			color:#000000;
+			font-size: 28px;
+		}
+	}
+	
+}
+
+.ab-single-img-1{
+	position:relative;
+	max-width:831px;
+	overflow:hidden;
+	padding-top:22px;
+	padding-bottom:49px;
+	.ab-sing-img-txt{
+		//position:absolute;
+		background:#000000;
+		max-width: 378px;
+		
+		padding-left:13px;
+		span{
+			text-transform: uppercase;
+			font-size: 23px;
+			font-family: "PFBeauSansPro-SeBold";
+			font-weight: bold;
+		}
+		span:first-child{
+			color:#fff;
+		}
+		span:last-child{
+			color:#F3B217;
+		}
+	}
+}
+
+/*============= END single.php ================*/
 
 
 
@@ -98,6 +221,26 @@
 
 @media only screen and (min-width : 480px) {
 
+/*============= single.php ================*/
+
+	.ab-single-img-1{
+		position:relative;
+		max-width:831px;
+		.ab-sing-img-txt{
+			position:absolute;
+			bottom:31px;
+			left: 34px;
+			background:#000000;
+			max-width: 378px;
+			padding-left:13px;
+			span{
+				font-size: 33px;
+			}
+		}
+	}
+
+/*============= END single.php ================*/
+
 }
 
 @media only screen and (min-width : 768px) {
@@ -106,6 +249,31 @@
 }
 
 @media only screen and (min-width : 992px) {
+
+/*============= single.php ================*/
+
+	.ab-single-wrap{
+		padding-left:36px;
+		padding-right:41px;
+		text-align:left;
+		.ab-red-ramka{
+			padding-left:62px;
+			.ab-red-ramka-title{
+				left: 45px;
+			}
+		}
+		.ab-single-second-title:after{
+			content: " ";
+			position:absolute;
+			background:url(../img/ab-str.png) no-repeat right center;
+			width: 19px;
+			height: 10px;
+			right: 144px;
+		    top: 13px;
+		}
+	}
+
+/*============= END single.php ================*/	
 
 /*============  ab-footer  =============*/
 
