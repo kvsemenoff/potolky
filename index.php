@@ -32,30 +32,54 @@
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
-
-	<?php require_once('includes/header.php'); ?>
-	<?php require_once('includes/header-bottom.php'); ?>
-<section>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-9">
-				<?php require_once('includes/catologcomp.php'); ?>
-				<?php require_once('includes/vozniklivoprosi.php'); ?>
-				<?php require_once('includes/populstatii.php'); ?>
-				<?php require_once('includes/fotografii.php'); ?>
-				<?php require_once('includes/video.php'); ?>
-				<?php require_once('includes/tovari.php'); ?>
-				<?php require_once('includes/o-portale.php'); ?>
-			</div>
-			<div class="col-md-3">
-				<?php require_once('includes/sidebar.php'); ?>
+<div class="az-content">
+	<section class="az-header">
+		<?php require_once('includes/header.php'); ?>
+		<?php require_once('includes/header-bottom.php'); ?>
+	</section>
+	<div class="header-buffer"></div>
+	<section class="az-middle">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<div class="az-content-left">
+						<div class="az-border">
+							<?php require_once('includes/catologcomp.php'); ?>
+							<?php require_once('includes/vozniklivoprosi.php'); ?>
+							<?php require_once('includes/populstatii.php'); ?>
+							<?php require_once('includes/fotografii.php'); ?>
+							<?php require_once('includes/video.php'); ?>
+							<?php require_once('includes/tovari.php'); ?>
+							<?php require_once('includes/o-portale.php'); ?>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="az-content-right">
+						<div class="az-border">
+							<?php require_once('includes/sidebar.php'); ?>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
-</section>	
+	</section>
+	<div class="az-buffer"></div>
+</div>
+<section class="az-footer">
 	<?php require_once('includes/footer.php'); ?>
-
-	
+</section>
 </body>
+<script>
+	$(document).ready(function(){
+		if(window.matchMedia('(min-width: 992px)').matches){
+			var left = $('.az-content-left .az-border');
+			var right = $('.az-content-right .az-border');
+			var height = Math.max(left.height(), right.height());
+			left.height(height);
+			right.height(height);
+		}
+	});
+</script>
 </html>
 
