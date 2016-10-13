@@ -1,0 +1,1 @@
+fotografii.php

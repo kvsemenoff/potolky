@@ -34,13 +34,24 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header.php'); ?>
-	<?php require_once('includes/results.php'); ?>
-	<?php require_once('includes/foto.php'); ?>
-	<?php require_once('includes/dva_bultozavra.php'); ?>
-	<?php require_once('includes/divisiony.php'); ?>
-	<?php require_once('includes/liders.php'); ?>
-	<?php require_once('includes/video.php'); ?>
-	<?php require_once('includes/slider.php'); ?>
+	<?php require_once('includes/header-bottom.php'); ?>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9">
+				<?php require_once('includes/catologcomp.php'); ?>
+				<?php require_once('includes/vozniklivoprosi.php'); ?>
+				<?php require_once('includes/populstatii.php'); ?>
+				<?php require_once('includes/fotografii.php'); ?>
+				<?php require_once('includes/video.php'); ?>
+				<?php require_once('includes/tovari.php'); ?>
+				<?php require_once('includes/o-portale.php'); ?>
+			</div>
+			<div class="col-md-3">
+				<?php require_once('includes/sidebar.php'); ?>
+			</div>
+		</div>
+	</div>
+	
 	<?php require_once('includes/footer.php'); ?>
 
 	
