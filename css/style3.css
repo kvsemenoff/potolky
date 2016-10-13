@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*structure*/
 body, html {
   width: 100%;
@@ -43,5 +44,10 @@ body, html {
   border: 1px solid #eff2f5; }
 
 /*structure*/
+=======
+.az-sidebar {
+  background: #fff;
+  width: 100%; }
+>>>>>>> 6c7e204780f0b00a994d81261f09d130bd73d34b
 
 /*# sourceMappingURL=style3.css.map */
