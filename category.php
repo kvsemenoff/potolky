@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
@@ -34,28 +34,19 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header.php'); ?>
-	<?php require_once('includes/header-bottom.php'); ?>
-<section>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-9">
-				<?php require_once('includes/catologcomp.php'); ?>
-				<?php require_once('includes/vozniklivoprosi.php'); ?>
-				<?php require_once('includes/populstatii.php'); ?>
-				<?php require_once('includes/fotografii.php'); ?>
-				<?php require_once('includes/video.php'); ?>
-				<?php require_once('includes/tovari.php'); ?>
-				<?php require_once('includes/o-portale.php'); ?>
+				<?php require_once('includes/categst.php'); ?>
 			</div>
 			<div class="col-md-3">
 				<?php require_once('includes/sidebar.php'); ?>
 			</div>
 		</div>
 	</div>
-</section>	
+	
 	<?php require_once('includes/footer.php'); ?>
 
 	
 </body>
 </html>
-
