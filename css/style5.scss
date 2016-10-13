@@ -19,12 +19,12 @@
   }
   .zk_photo{
     float: left;
-    margin:25px 3px 0 0;
+    margin:25px 3px 35px 0;
     width: 168px;
     height:133px;   
   }
 
 }
- .zk_photo div a:hover {
-      background-color:red;
-    }    
+.zk_photo div>a>img:hover {
+   background-image:url(../images/photo_hover.png);
+}    
