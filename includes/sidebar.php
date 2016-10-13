@@ -28,6 +28,48 @@
 		</div>
 	</div>
 	<div class="az-title1 az-margin-top35">Последние отзывы</div>
+	<div class="az-otziv">
+		<div class="az-opros-text az-opros-text_style">Выполняется в случае, если площадь дефекта незначительна</div>
+		<div class="az-otziv-inner">
+			<div class="az-otziv-inner1"><img src="img/otziv-foto.png" alt=""><span>Александр</span></div>
+			<div class="az-otziv-inner2">Стеклянные полотна перестали считаться неподходящим</div>
+			<div class="az-otziv-inner3">
+				<span class="az-star-yellow"></span>
+				<span class="az-star-yellow"></span>
+				<span class="az-star-yellow"></span>
+				<span class="az-star-yellow"></span>
+				<span class="az-star-grey"></span>
+			</div>
+		</div>
+	</div>
+	<div class="az-otziv">
+		<div class="az-opros-text az-opros-text_style">Выполняется в случае, если площадь</div>
+		<div class="az-otziv-inner">
+			<div class="az-otziv-inner1"><img src="img/otziv-foto.png" alt=""><span>Виктория</span></div>
+			<div class="az-otziv-inner2">Выполняется в случае, когда площадь дефекта довольно</div>
+			<div class="az-otziv-inner3">
+				<span class="az-star-yellow"></span>
+				<span class="az-star-yellow"></span>
+				<span class="az-star-yellow"></span>
+				<span class="az-star-grey"></span>
+				<span class="az-star-grey"></span>
+			</div>
+		</div>
+	</div>
+	<div class="az-otziv">
+		<div class="az-opros-text az-opros-text_style">Рисунок на потолке поможет украсить</div>
+		<div class="az-otziv-inner">
+			<div class="az-otziv-inner1"><img src="img/otziv-foto.png" alt=""><span>Кирилл</span></div>
+			<div class="az-otziv-inner2">Рисунок на потолке поможет украсить интерьер</div>
+			<div class="az-otziv-inner3">
+				<span class="az-star-yellow"></span>
+				<span class="az-star-yellow"></span>
+				<span class="az-star-grey"></span>
+				<span class="az-star-grey"></span>
+				<span class="az-star-grey"></span>
+			</div>
+		</div>
+	</div>
 </div>
 <script>
 	$(document).ready(function(){

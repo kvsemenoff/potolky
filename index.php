@@ -41,7 +41,7 @@
 	<section class="az-middle">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-9">
+				<div class="col-md-8 col-lg-9">
 					<div class="az-content-left">
 						<div class="az-border">
 							<?php require_once('includes/catologcomp.php'); ?>
@@ -54,7 +54,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-4 col-lg-3">
 					<div class="az-content-right">
 						<div class="az-border">
 							<?php require_once('includes/sidebar.php'); ?>
