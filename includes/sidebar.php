@@ -22,10 +22,23 @@
 		<span class="az-num1"></span><span class="az-num2">1980</span><br>
 		<input type="radio" name="radio1" id="radio4"><label for="radio4">Спасибо Вам</label><br>
 		<span class="az-num1"></span><span class="az-num2">1760</span><br>
+		<div class="az-vote az-margin-top20">
+			<a href="#" class="az-vote1">Проголосовать</a>
+			<a href="#" class="az-vote2">Результаты опроса</a>
+		</div>
 	</div>
+	<div class="az-title1 az-margin-top35">Последние отзывы</div>
 </div>
 <script>
 	$(document).ready(function(){
-		$('.az').html();
+		var nums = new Array;
+		var az_num2 = $('.az-num2');
+		az_num2.each(function(){
+			nums.push(Number($(this).text()));
+		});
+		var max_num = Math.max.apply(null, nums);
+		az_num2.each(function(index){
+			$(this).prev('.az-num1').css('width', (nums[index]/max_num)*40 + 10 + '%');
+		});
 	});
 </script>
