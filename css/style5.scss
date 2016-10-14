@@ -103,7 +103,7 @@
 
 
 
-        //
+        //VOZNIKLIVOPROSI--------------------------------------.PHP
 
 
 .banner_vopros{
@@ -144,6 +144,19 @@
         right: 105px;            //297px;
     }
 }
+
+
+.about_us_portal{
+    font-family: "PFBeauSansPro-SeBold";
+    color:#000000;
+    h3{
+        font-family:"PFBeauSansPro-Book";
+        font-size:30px;
+    }
+}
+
+
+
 
 
 
@@ -187,7 +200,7 @@
           float:left;
           margin-right:10px;
           display: block;
-          outline:1px solid red;   
+          
         }
     .zk_text{         
         top: 120px !important;             //140px;

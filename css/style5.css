@@ -113,6 +113,13 @@
     top: 100px;
     right: 105px; }
 
+.about_us_portal {
+  font-family: "PFBeauSansPro-SeBold";
+  color: #000000; }
+  .about_us_portal h3 {
+    font-family: "PFBeauSansPro-Book";
+    font-size: 30px; }
+
 @media only screen and (min-width: 480px) {
   .zk_photos li.zk_photo {
     float: left;
@@ -138,8 +145,7 @@
     width: 48%;
     float: left;
     margin-right: 10px;
-    display: block;
-    outline: 1px solid red; }
+    display: block; }
 
   .zk_text {
     top: 120px !important;
