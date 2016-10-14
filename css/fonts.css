@@ -62,3 +62,13 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: "PFDinDisplay-Pro";
+    src: url('../fonts/PF_DinDisplay/PFDinDisplay-Pro.eot');
+    src: local('☺'), url('../fonts/PF_DinDisplay/PFDinDisplay-Pro.woff') format('woff'),
+    url('../fonts/PF_DinDisplay/PFDinDisplay-Pro.ttf') format('truetype'),
+    url('../fonts/PF_DinDisplay/PFDinDisplay-Pro.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -68,7 +68,7 @@ body, html{
 		bottom: 50px;
 		padding: 0px 25px;
 		span{
-			font-family: "PFBeauSansPro-Book";
+			font-family: "PFBeauSansPro-Bold";
 			font-size: 24px;
 			background: #29292e;
 			line-height: 24px;
@@ -77,9 +77,10 @@ body, html{
 			margin-top: 1px;
 			color: #fff;
 			letter-spacing: -0.025em;
+			white-space: nowrap;
 		}
 		a{
-			font-family: "PFBeauSansPro-Book";
+			font-family: "PFBeauSansPro-Bold";
 			font-size: 14px;
 			text-transform: uppercase;
 			background: #f3b217;
@@ -99,7 +100,7 @@ body, html{
 	font-size: 24px;
 	color: #000;
 	position: relative;
-	padding: 0px 20px;
+	padding: 0px 5px 0 20px;
 	display: block;
 }
 .az-title1:before{
@@ -119,29 +120,36 @@ body, html{
 	background: #f1f4f6;
 	color: #000;
 }
+.az-opros-text_style{
+	background: #fff;
+}
 /*sidebar*/
 
 
 /*radio*/
 .az-radio{
-	padding: 0 20px;
+	padding: 12px 20px;
+	font-size: 0px;
 	input[type="radio"]{
 		display: none;
 	}
 	label{
 		font-family: "PFBeauSansPro-Reg";
 		font-size: 15px;
-		line-height: 30px;
-		padding-left: 35px;
+		line-height: 15px;
+		margin-top: 10px;
+		margin-left: 35px;
 		color: #000;
 		position: relative;
 		display: inline-block;
+		white-space: nowrap;
+		cursor: pointer;
 	}
 	label:before{
 		content: '';
 		position: absolute;
 		top: 50%;
-		left: 0px;
+		left: -35px;
 		transform: translate(0, -50%);
 		background: url(../img/radio.png) no-repeat top left;
 		width: 21px;
@@ -154,13 +162,231 @@ body, html{
 		background: #f3b217;
 		height: 2px;
 		margin-left: 35px;
+		display: inline-block;
+		vertical-align: middle;
+		transform: translate(0, -100%);
 	}
+	.az-num2{
+		display: inline-block;
+		padding-left: 7px;
+		font-family: "PFBeauSansPro-Reg";
+		font-size: 9px;
+		color: #91969a;
+	}
+	.az-vote{
+		text-align: center;
+		.az-vote1{
+			font-family: "PFBeauSansPro-Bold";
+			font-size: 14px;
+			line-height: 40px;
+			color: #fff;
+			background: #e32b45;
+			text-align: center;
+			text-transform: uppercase;
+			width: 160px;
+			display: inline-block;
+			border-radius: 3px;
+		}
+		.az-vote2{
+			font-family: "PFBeauSansPro-Reg";
+			font-size: 14px;
+			line-height: 40px;
+			color: #5c5f62;
+			display: block;
+			
+		}
+	}
+	
 }
 /*radio*/
+
+/*otziv*/
+.az-otziv-inner{
+	position: relative;
+	background: #f6f8f9;
+	padding: 10px 20px;
+	.az-otziv-inner1{
+		height: 21px;
+		width: 100%;
+		img{
+			height: 21px;
+			width: auto;
+			margin: 0 6px;
+		}
+		span{
+			line-height: 21px;
+			font-family: "PFBeauSansPro-Reg";
+			font-size: 12px;
+			color: #818487;
+			vertical-align: top;
+		}
+	}
+	.az-otziv-inner2{
+		line-height: 19px;
+		font-family: "PFBeauSansPro-Reg";
+		font-size: 14px;
+		font-style: italic;
+		color: #3f4143;
+		padding: 5px 0px;
+	}
+}
+.az-otziv-inner:before{
+	content: '';
+	position: absolute;
+	bottom: 100%;
+	left: 24px;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 7px solid #f6f8f9;
+}
+.az-otziv-inner3{
+	font-size: 0px;
+}
+.az-star-yellow{
+	width: 11px;
+	height: 12px;
+	background: url(../img/az-star-yellow.png) no-repeat top left;
+	display: inline-block;
+}
+.az-star-grey{
+	width: 11px;
+	height: 12px;
+	background: url(../img/az-star-grey.png) no-repeat top left;
+	display: inline-block;
+}
+/*otziv*/
+
+
+/*zapisi*/
+.az-zapis{
+	padding: 10px 10px 10px 20px;
+}
+.az-zapis-border{
+	position: relative;
+}
+.az-zapis-border:before{
+	content: '';
+	position: absolute;
+	bottom: 0px;
+	left: 20px;
+	width: calc(100% - 40px);
+	height: 1px;
+	background: url(../img/az-zapis-border.png) repeat-x left top;
+}
+.az-zapis-left{
+	float: left;
+	width: 30%;
+	max-width: 70px;
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
+.az-zapis-right{
+	float: right;
+	width: 65%;
+	min-width: calc(95% - 70px);
+}
+.az-zapis1{
+	font-family: "PFBeauSansPro-Reg";
+	font-size: 16px;
+	line-height: 19px;
+	color: #000;
+	display: block;
+}
+.az-zapis2{
+	display: inline-block;
+	padding-left: 16px;
+	position: relative;
+	font-family: "PFBeauSansPro-Reg";
+	font-size: 12px;
+	color: #818487;
+
+}
+.az-zapis2:before{
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: -3px;
+	transform: translate(0, -50%);
+	background: url(../img/az-label.png);
+	width: 14px;
+	height: 14px;
+}
+.az-zapis2_style:before{
+	background: url(../img/az-label2.png);
+}
+.az-zapis2_style2:before{
+	background: url(../img/az-comm.png);
+	width: 13px;
+	height: 13px;
+}
+/*zapisi*/
+
+/*popstat*/
+.pop-stat{
+	width: 100%;
+	background: #f9fafb;
+	padding-bottom: 35px;
+}
+.pop-stat-head{
+	font-size: 26px;
+    font-family: "PFBeauSansPro-SeBold";
+    color: #000000;
+    border-top: 2px solid #f3b217;
+    display: inline-block;
+    line-height: 70px;
+}
+.az-stat-left{
+	width: 100%;
+}
+.az-stat-right{
+	width: 100%;
+}
+.az-stat-title{
+	font-family: "PFBeauSansPro-Book";
+	font-size: 21px;
+	color: #000;
+	line-height: 24px;
+	display: block;
+}
+.az-stat-text{
+	font-family: "Conv_MyriadPro-Regular";
+	font-size: 15px;
+	color: #444446;
+	line-height: 23px;
+	display: block;
+}
+/*popstat*/
+
+
+
+.az-img-box{
+	width: 100%;
+	img{
+		width: 100%;
+		height: auto;
+	}
+}
 
 /*margins*/
 .az-margin-top35{
 	margin-top: 35px;
+}
+.az-margin-top20{
+	margin-top: 20px;
+}
+.az-margin-top10{
+	margin-top: 10px;
+}
+.az-margin-top16{
+	margin-top: 16px;
+}
+.az-margin-left4{
+	margin-left: 4px;
+}
+.az-margin1{
+	margin: 0px 6px 0px 4px;
 }
 
 @media only screen and (min-width : 320px) {
@@ -168,7 +394,10 @@ body, html{
 }
 
 @media only screen and (min-width : 480px) {
-
+	.pop-stat{
+		padding-left: 28px;
+		padding-right: 28px;
+	}
 }
 
 @media only screen and (min-width : 768px) {
@@ -176,27 +405,43 @@ body, html{
 }
 
 @media only screen and (min-width : 992px) {
+	.pop-stat-head{
+		margin-left: 0px;
+	}
+
+
+	.az-zapis-left{
+		float: left;
+		width: 30%;
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+	.az-zapis-right{
+		float: right;
+		width: 65%;
+	}
 	.az-header{
 		max-height: 242px;
 	}
 	.header-buffer{
 		height: 401px;
 	}
-	.az-banner{
-		.az-banner-content{
-			padding: 0px 5px;
-			span{
-				white-space: nowrap;
-			}
-		}
-	}
+
 }
 
 @media only screen and (min-width : 1200px) {
-	.az-banner{
-		.az-banner-content{
-			padding: 0px 25px;
-		}
+	.pop-stat{
+		padding-right: 0px;
+	}
+	.az-stat-left{
+		float: left;
+		width: 65%;
+	}
+	.az-stat-right{
+		float: right;
+		width: 35%;
 	}
 }
 

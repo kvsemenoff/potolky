@@ -42,7 +42,9 @@
 				font-family: "PFBeauSansPro-Reg";
 				font-size: 14px;
 				line-height: 24px;
+				a{
 				color:#354356;
+				}
 			}
 		}
 	}
@@ -71,25 +73,249 @@
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*============ END ab-footer =============*/
 
 
+/*============= single.php ================*/
+
+.ab-single-img-1{
+	position:relative;
+	max-width:831px;
+	overflow:hidden;
+	padding-top:22px;
+	padding-bottom:49px;
+	.ab-sing-img-txt{
+		background:#000000;
+		max-width: 378px;
+		padding-left:13px;
+		span{
+			text-transform: uppercase;
+			font-size: 23px;
+			font-family: "PFBeauSansPro-SeBold";
+			font-weight: bold;
+		}
+		span:first-child{
+			color:#fff;
+		}
+		span:last-child{
+			color:#F3B217;
+		}
+	}
+}
+
+.ab-single-wrap{
+	text-align:center;
+	padding-top:21px;
+	.ab-single-txt{
+		span{
+			font-family: "PFBeauSansPro-Reg";
+			font-size: 18px;
+			color:#303032;
+			line-height: 25px;
+		}
+	}
+	.ab-brad-crumps{
+			a{
+				color:#252728;
+				font-family: "PFBeauSansPro-Reg";
+			}
+		
+		span:last-child{
+			color:#5C5F62;
+			font-family: "PFBeauSansPro-Reg";
+		}
+	}
+
+	h1{
+	font-family: "Conv_MyriadPro-Regular";
+	font-size: 33px;
+	color:#000000 !important;
+	line-height: 30px;
+	}
+	.ab-metki{
+		padding-bottom:18px;
+		span{
+			font-family: "PFBeauSansPro-Reg";
+			font-size: 14px;
+			padding-left:20px;
+			a{
+				color:#818487;
+			}
+		}
+		span:first-child{
+			background:url(../img/ab-metka-1.png) no-repeat left center;
+		}
+		span:last-child{
+			margin-left: 10px;
+			background:url(../img/ab-metka-2.png) no-repeat left center;
+		}
+	}
+	.ab-red-ramka{
+		position:relative;
+		border:1px solid #F3B217;
+		padding-top: 34px;
+		padding-bottom:26px;
+		padding-left:10px;
+		text-align: left;
+		margin-bottom: 31px;
+		ul{
+			li{
+				line-height: 26px;
+				span:last-child{
+					font-family: "PFBeauSansPro-Reg";
+					color:#4A4A5E;
+					font-size: 15px;
+				}
+			}
+			.ab-tsifra-2{
+				padding-left:14px;
+			}
+		}
+		.ab-tsifra{
+			font-family: "PFBeauSansPro-SeBold";
+			font-size: 17px;
+			color:#F4B836;
+			padding-right:10px !important;
+		}
+		.ab-red-ramka-title{
+			position:absolute;
+			left: 28px;
+			top: -20px;
+			padding:2px 19px;
+			background:#fff;
+			span{
+			  font-family: "PFBeauSansPro-Book";
+			  font-size: 24px;
+			  color:#000000;
+			}
+		}
+	}
+	.ab-single-second-title{
+		position:relative;
+		border-left:6px solid #F3B217;
+		padding-left:18px;
+		margin-top:28px;
+		margin-bottom:25px;
+		span{
+			font-family: "PFBeauSansPro-Reg";
+			color:#000000;
+			font-size: 28px;
+		}
+	}
+	.ab-txt-img{
+		padding-bottom:25px;
+		width: 100%;
+		//max-width: 328px;
+		margin-top: 33px;
+		.ab-txt-img-left{
+			background:#F1F4F6;
+			padding: 9px 9px 20px 9px;
+			text-align: center;
+			img{
+				width: 100%;
+			}
+			span{
+				font-family: "PFBeauSansPro-Reg";
+				color:#5C5F62;
+				font-size:13px;
+				padding-top:10px;
+				margin-top: 18px;
+				display: inline-block;
+			}
+		}
+	}
+	.ab-single-txt-2{
+	    padding-top: 29px;
+	}
+	.ab-italic-txt{
+		padding-top:32px;
+		padding-bottom:26px;
+		span{
+			font-family: "PFBeauSansPro-Reg";
+			color:#69521A;
+			font-size:18px;
+			font-style: italic;
+			line-height: 27px;
+			display: inline-block;
+		}
+	}
+	.ab-italic-txt-2{
+		padding-top:32px;
+		padding-bottom:26px;
+		padding-left:37px;
+		text-align: left;
+		ol{
+			li{
+				 font-family: "PFBeauSansPro-SeBold";
+				 color:#F3B217;
+				 font-size:24px;
+				 font-style: normal;
+				 span{
+					font-family: "PFBeauSansPro-Reg";
+					color:#69521A;
+					font-size:18px;
+					font-style: italic;
+					line-height: 27px;
+				}
+			}
+		}
+	}
+	.ab-tsitata-1{
+		text-align: center;
+		border-top:1px solid #DBDDDF;
+		border-bottom:1px solid #DBDDDF;
+		padding-top:24px;
+		padding-bottom:26px;
+		position:relative;
+		font-family: "PFBeauSansPro-Reg";
+		font-size: 18px;
+		color:#303032;
+		line-height: 25px;
+		margin-bottom: 45px;
+	}
+	.ab-tsitata-1:after{
+		position:absolute;
+		content: "";
+		background: url(../img/ab-kav.jpg) no-repeat;
+		width: 71px;
+		height: 19px;
+		left: 50%;
+		transform: translate(-50%,0);
+		top:-11px;
+	}
+
+	.ab-tsitata-2{
+		background:#F9F7EA;
+		padding:29px 10px;
+		//padding:29px 100px;
+		font-family: "PFBeauSansPro-Reg";
+		font-size: 18px;
+		position:relative;
+		.ab-div-kav{
+			position:absolute;
+			left: 50%;
+			transform: translate(-50%,0);
+			top: -48px;
+			span{
+				font-family: "PFDinDisplay-Pro";
+				font-size: 180px;
+				color: #F3B217;
+			}
+		}
+	}
+}
 
 
+
+/*============= END single.php ================*/
+
+
+
+
+
+
+
+/*========= Mobile First Method =======*/
 
 
 @media only screen and (min-width : 320px) {
@@ -98,14 +324,97 @@
 
 @media only screen and (min-width : 480px) {
 
+/*============= single.php ================*/
+
+	.ab-single-img-1{
+		position:relative;
+		max-width:831px;
+		.ab-sing-img-txt{
+			position:absolute;
+			bottom:31px;
+			left: 34px;
+			background:#000000;
+			max-width: 378px;
+			padding-left:13px;
+			span{
+				font-size: 33px;
+			}
+		}
+	}
+
+/*============= END single.php ================*/
+
 }
 
 @media only screen and (min-width : 768px) {
 
+/*============= single.php ================*/
+
+	.ab-italic-txt{
+		padding-left:32px;
+		span{
+			background:url(../img/ab-krug.png) no-repeat left top 6px;
+			padding-left:25px;
+		}
+		span:nth-child(2){
+			margin-left: 44px;
+		}
+	}	
+	.ab-tsitata-1{
+		padding:24px 80px 26px 80px !important;
+	}
+	.ab-tsitata-2{
+		padding:29px 100px !important;
+		.ab-div-kav{
+			left: 6% !important;
+			top: -40px !important;
+		}
+	}		
+
+/*============= END single.php ================*/
 
 }
 
 @media only screen and (min-width : 992px) {
+
+/*============= single.php ================*/
+
+	.ab-single-wrap{
+		padding-left:36px;
+		padding-right:41px;
+		text-align:left;
+		.ab-red-ramka{
+			padding-left:62px;
+			.ab-red-ramka-title{
+				left: 45px;
+			}
+		}
+		.ab-single-second-title:after{
+			content: " ";
+			position:absolute;
+			background:url(../img/ab-str.png) no-repeat right center;
+			width: 19px;
+			height: 10px;
+			right: 144px;
+		    top: 13px;
+		}
+		.ab-single-second-title-2:after{
+			content: " ";
+			position:absolute;
+			background:url(../img/ab-str.png) no-repeat;
+			width: 19px;
+			height: 10px;
+			right: 375px;
+		    top: 48px;
+		}
+
+		.ab-italic-txt-2{
+		padding-left:45px;
+		}
+
+	}
+
+/*============= END single.php ================*/	
 
 /*============  ab-footer  =============*/
 
@@ -128,8 +437,41 @@
 }
 
 @media only screen and (min-width : 1200px) {
-    
+
+/*============= single.php ================*/
+
+    .ab-txt-img{
+			max-width: 328px;
+			float: left;
+		}
+		.ab-single-txt-2{
+			float: left;
+		    max-width: 426px;
+		    padding-left: 29px;
+		    padding-top: 29px;
+		    
+		}
+		.ab-single-txt-3{
+			float: left;
+		    max-width: 426px;
+		    padding-left: 0 !important;
+		    padding-top: 29px;
+		    padding-right:32px;
+		    
+		}
+/*============= END single.php ================*/
+
 }
+
+
+
+
+
+
+
+
+
+
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     //outline: 15px solid blue;
