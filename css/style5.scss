@@ -6,7 +6,7 @@
 @import url(fonts.css);
 
 /*# sourceMappingURL=style5.css.map */
-                    //fotografii.php
+                    //FOTOGRAFII---------------------------------.PHP
 .clear{
     clear:both;
 }
@@ -103,7 +103,7 @@
 
 
 
-
+        //
 
 
 .banner_vopros{
@@ -124,24 +124,24 @@
             color:#ffffff;
         }
         p{
-            font-size:4px;        //15px;
+            font-size:5px;        //15px;
             color:#acacae;
             font-family: "PFBeauSansPro-Reg";
         }
     }
     .zk_banner_vop{
         width:50px;      //162px;
-        height: 15px;        //38px;
+        height: 12px;        //38px;
         font-size: 4px;            //14px;
         color:#ffffff;
         background: #e32b45;
         border-radius: 3px;
         font-weight: bold;
         text-align: center;
-        padding: 4px 0;        //12
+        padding: 3px 0;        //12
         position: absolute;
-        top:  135px;             //210px;
-        right: 210px;            //297px;
+        top:  100px;             //210px;
+        right: 105px;            //297px;
     }
 }
 
@@ -168,16 +168,16 @@
            
         }
         p{
-            font-size:10px !important;       //15px;
+            font-size:7px !important;       //15px;
         }
     }
     .zk_banner_vop{
-        width:70px;      //162px;
-        height: 25px;        //38px;
-        font-size: 6px;            //14px;
-        padding: 34x 0;        //12
-        top:  115px;             //210px;
-        right: 130px;            //297px;
+        width:70px !important;      //162px;
+        height: 15px !important;        //38px;
+        font-size: 6px !important;            //14px;
+        padding: 4px 0 !important;        //12
+        top:  130px !important;             //210px;
+        right: 188px !important;            //297px;
     }
 }
 
@@ -189,6 +189,24 @@
           display: block;
           outline:1px solid red;   
         }
+    .zk_text{         
+        top: 120px !important;             //140px;
+        right: 180px !important;                //90px;       
+             h3{
+                font-size:18px !important;  //30px;
+            }
+            p{
+                font-size:10px !important;       //15px;
+            }
+    }
+    .zk_banner_vop{
+        width:90px !important;      //162px;
+        height: 20px !important;        //38px;
+        font-size: 8px !important;            //14px;
+        padding: 5px 0 !important;        //12
+        top:  165px !important;             //210px;
+        right: 310px !important;            //297px;
+    }
 }
 
 
@@ -212,5 +230,45 @@
                   clear:both;
                  }   
             }
+    }
+
+    .zk_text{         
+        top: 100px !important;             //140px;
+        right: 80px !important;                //90px;       
+             h3{
+                font-size:22px !important;  //30px;
+            }
+            p{
+                font-size:12px !important;       //15px;
+            }
+    }
+    .zk_banner_vop{
+        width:115px !important;      //162px;
+        height: 30px !important;        //38px;
+        font-size: 10px !important;            //14px;
+        padding: 10px 0 !important;        //12
+        top:  150px !important;             //210px;
+        right: 235px !important;            //297px;
+    }                 
+}
+
+@media only screen and (min-width : 1200px){
+    .zk_text{         
+        top: 130px !important;             //140px;
+        right: 145px !important;                //90px;       
+             h3{
+                font-size:26px !important;  //30px;
+            }
+            p{
+                font-size:13px !important;       //15px;
+            }
+    }
+    .zk_banner_vop{
+        width:145px !important;      //162px;
+        height: 34px !important;        //38px;
+        font-size: 12px !important;            //14px;
+        padding: 10px 0 !important;        //12
+        top:  190px !important;             //210px;
+        right: 320px !important;            //297px;
     }                 
 }

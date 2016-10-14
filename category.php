@@ -32,21 +32,39 @@
 	<script src="js/responsiveTabs.js"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/common.js"></script>
-
-	<?php require_once('includes/header.php'); ?>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-9">
-				<?php require_once('includes/categst.php'); ?>
-			</div>
-			<div class="col-md-3">
-				<?php require_once('includes/sidebar.php'); ?>
+<div class="az-content">
+	<section class="az-header">
+		<?php require_once('includes/header.php'); ?>
+	</section>
+	<section class="az-middle">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-lg-9">
+					<div class="az-content-left">
+						<div class="az-border">
+							<?php require_once('includes/categst.php'); ?>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-lg-3">
+					<div class="az-content-right">
+						<div class="az-border">
+							<?php require_once('includes/sidebar.php'); ?>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
-	
+	</section>
+	<div class="az-buffer"></div>
+</div>
+<section class="az-footer">
 	<?php require_once('includes/footer.php'); ?>
-
-	
+</section>
 </body>
+<script>
+	$(document).ready(function(){
+		
+	});
+</script>
 </html>
