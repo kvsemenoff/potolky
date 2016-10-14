@@ -224,6 +224,60 @@ body, html {
   display: inline-block; }
 
 /*otziv*/
+/*zapisi*/
+.az-zapis {
+  padding: 10px 10px 10px 20px; }
+
+.az-zapis-border {
+  position: relative; }
+
+.az-zapis-border:before {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  width: calc(100% - 40px);
+  height: 1px;
+  background: url(../img/az-zapis-border.png) repeat-x left top; }
+
+.az-zapis-left {
+  float: left;
+  width: 30%;
+  max-width: 70px; }
+  .az-zapis-left img {
+    width: 100%;
+    height: auto; }
+
+.az-zapis-right {
+  float: right;
+  width: 65%;
+  min-width: calc(95% - 70px); }
+
+.az-zapis1 {
+  font-family: "PFBeauSansPro-Reg";
+  font-size: 16px;
+  line-height: 19px;
+  color: #000; }
+
+.az-zapis2 {
+  display: block;
+  padding-left: 16px;
+  position: relative;
+  font-family: "PFBeauSansPro-Reg";
+  font-size: 12px;
+  color: #818487; }
+
+.az-zapis2:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -3px;
+  transform: translate(0, -50%);
+  background: url(../img/az-label.png);
+  width: 14px;
+  height: 14px; }
+
+/*zapisi*/
 /*margins*/
 .az-margin-top35 {
   margin-top: 35px; }
@@ -231,7 +285,24 @@ body, html {
 .az-margin-top20 {
   margin-top: 20px; }
 
+.az-margin-top10 {
+  margin-top: 10px; }
+
+.az-margin-top16 {
+  margin-top: 16px; }
+
 @media only screen and (min-width: 992px) {
+  .az-zapis-left {
+    float: left;
+    width: 30%; }
+    .az-zapis-left img {
+      width: 100%;
+      height: auto; }
+
+  .az-zapis-right {
+    float: right;
+    width: 65%; }
+
   .az-header {
     max-height: 242px; }
 

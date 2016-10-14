@@ -57,7 +57,7 @@
 				<div class="col-md-4 col-lg-3">
 					<div class="az-content-right">
 						<div class="az-border">
-							<?php require_once('includes/sidebar.php'); ?>
+							<?php require_once('includes/sidebar2.php'); ?>
 						</div>
 					</div>
 				</div>
