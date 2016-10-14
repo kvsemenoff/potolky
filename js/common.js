@@ -2,6 +2,9 @@
 
 $(document).ready(function(){
 
+
+
+
     $('.az-select').each(function(){
         var select = $(this);    
         var option = select.find('select option');
@@ -33,6 +36,24 @@ $(document).ready(function(){
         $(this).find('.az-options').slideToggle(0);
         $(this).toggleClass('az-select-focus');
     });
+
+    var nums = new Array;
+    var az_num2 = $('.az-num2');
+    az_num2.each(function(){
+        nums.push(Number($(this).text()));
+    });
+    var max_num = Math.max.apply(null, nums);
+    az_num2.each(function(index){
+        $(this).prev('.az-num1').css('width', (nums[index]/max_num)*40 + 10 + '%');
+    });
+
+    if(window.matchMedia('(min-width: 992px)').matches){
+        var left = $('.az-content-left .az-border');
+        var right = $('.az-content-right .az-border');
+        var height = Math.max(left.height(), right.height());
+        left.height(height);
+        right.height(height);
+    }
 
  });
 

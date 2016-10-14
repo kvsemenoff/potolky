@@ -72,13 +72,7 @@
 </body>
 <script>
 	$(document).ready(function(){
-		if(window.matchMedia('(min-width: 992px)').matches){
-			var left = $('.az-content-left .az-border');
-			var right = $('.az-content-right .az-border');
-			var height = Math.max(left.height(), right.height());
-			left.height(height);
-			right.height(height);
-		}
+		
 	});
 </script>
 </html>

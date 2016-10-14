@@ -70,17 +70,21 @@
 			</div>
 		</div>
 	</div>
+	<div class="az-title1 az-margin-top35">Свежие записи</div>
+	<div class="az-zapisi">
+		<div class="az-zapis">
+			<div class="az-zapis-left">
+				<img src="img/az-img1.jpg" alt="">
+			</div>
+			<div class="az-zapis-right">
+				<span class="az-zapis1">Рисунок на потолке поможет украсить интерьер</span>
+				<span class="az-zapis2">Деревянные</span>
+			</div>
+		</div>
+	</div>
 </div>
 <script>
 	$(document).ready(function(){
-		var nums = new Array;
-		var az_num2 = $('.az-num2');
-		az_num2.each(function(){
-			nums.push(Number($(this).text()));
-		});
-		var max_num = Math.max.apply(null, nums);
-		az_num2.each(function(index){
-			$(this).prev('.az-num1').css('width', (nums[index]/max_num)*40 + 10 + '%');
-		});
+		
 	});
 </script>
