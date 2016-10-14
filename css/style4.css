@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(reset.css);
 @import url(style.css);
 @import url(style2.css);
@@ -51,6 +52,50 @@
 
 /*============ END ab-footer =============*/
 /*============= single.php ================*/
+/*  ╨б╨╕╤Б╤В╨╡╨╝╨░ ╨│╨╛╨╗╨╛╤Б╨╛╨▓╨░╨╜╨╕╤П  */
+.az-center2 {
+  margin-top: 25px;
+  margin-bottom: 31px; }
+  .az-center2 .az-stars {
+    display: inline-block;
+    font-size: 0px; }
+    .az-center2 .az-stars input[type="radio"] {
+      display: none; }
+    .az-center2 .az-stars .az-none {
+      display: none; }
+    .az-center2 .az-stars .label1, .az-center2 .az-stars .label2, .az-center2 .az-stars .label3, .az-center2 .az-stars .label4, .az-center2 .az-stars .label5 {
+      margin-left: 2px;
+      width: 23px !important;
+      height: 22px;
+      display: inline-block;
+      background: url(../img/az-star-grey.png) no-repeat top center;
+      cursor: pointer; }
+    .az-center2 .az-stars .radio1:checked ~ label,
+    .az-center2 .az-stars .radio2:checked ~ label,
+    .az-center2 .az-stars .radio3:checked ~ label,
+    .az-center2 .az-stars .radio4:checked ~ label,
+    .az-center2 .az-stars .radio5:checked ~ label {
+      background: url(../img/az-star-yellow.png) no-repeat top center; }
+    .az-center2 .az-stars .radio1:checked ~ .label1 ~ label,
+    .az-center2 .az-stars .radio2:checked ~ .label2 ~ label,
+    .az-center2 .az-stars .radio3:checked ~ .label3 ~ label,
+    .az-center2 .az-stars .radio4:checked ~ .label4 ~ label,
+    .az-center2 .az-stars .radio5:checked ~ .label5 ~ label {
+      background: url(../img/az-star-grey.png) no-repeat top center; }
+  .az-center2 .az-stars:hover label {
+    background: url(../img/az-star-yellow.png) no-repeat top center !important; }
+  .az-center2 .az-stars:hover .label1:hover ~ label,
+  .az-center2 .az-stars:hover .label2:hover ~ label,
+  .az-center2 .az-stars:hover .label3:hover ~ label,
+  .az-center2 .az-stars:hover .label4:hover ~ label,
+  .az-center2 .az-stars:hover .label5:hover ~ label {
+    background: url(../img/az-star-grey.png) no-repeat top center !important; }
+  .az-center2 span {
+    font-family: "MyriadPro-Regular";
+    font-size: 11px;
+    color: #818487;
+    display: block; }
+
 .ab-single-img-1 {
   position: relative;
   max-width: 831px;
@@ -89,7 +134,9 @@
     font-family: "Conv_MyriadPro-Regular";
     font-size: 33px;
     color: #000000 !important;
-    line-height: 30px; }
+    line-height: 30px;
+    padding-top: 23px;
+    padding-bottom: 23px; }
   .ab-single-wrap .ab-metki {
     padding-bottom: 18px; }
     .ab-single-wrap .ab-metki span {
@@ -225,11 +272,70 @@
         font-family: "PFDinDisplay-Pro";
         font-size: 180px;
         color: #F3B217; }
+  .ab-single-wrap .ab-single-second-title-3 span {
+    font-size: 22px !important; }
+  .ab-single-wrap .ab-video {
+    margin-top: 26px;
+    padding: 13px;
+    background: #F1F4F6;
+    position: relative; }
+    .ab-single-wrap .ab-video .ab-vid-next span {
+      font-family: "PFBeauSansPro-Reg";
+      font-size: 17px; }
+    .ab-single-wrap .ab-video img {
+      width: 100%; }
+    .ab-single-wrap .ab-video .ab-a-next:after {
+      position: absolute;
+      content: "";
+      width: 116px;
+      height: 116px;
+      background: url(../img/ab-play-video.png) no-repeat;
+      left: 50%;
+      transform: translate(-50%, 0);
+      top: 5%; }
+  .ab-single-wrap .ab-single-second-title-4 span {
+    font-size: 20px; }
+  .ab-single-wrap .ab-single-txt-new span .ab-bold {
+    font-family: "PFBeauSansPro-SeBold"; }
+  .ab-single-wrap .ab-table {
+    margin-top: 36px;
+    margin-bottom: 29px; }
+    .ab-single-wrap .ab-table tr {
+      border: 1px solid #EEEFF3; }
+    .ab-single-wrap .ab-table td {
+      border: 1px solid #EEEFF3; }
+    .ab-single-wrap .ab-table .ab-table-title {
+      background: #F3B217;
+      font-family: "PFBeauSansPro-SeBold";
+      font-size: 18px;
+      color: #fff; }
+      .ab-single-wrap .ab-table .ab-table-title td {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 35px; }
+    .ab-single-wrap .ab-table .ab-table-main {
+      font-family: "PFBeauSansPro-Reg";
+      font-size: 16px; }
+      .ab-single-wrap .ab-table .ab-table-main td {
+        padding: 12px 29px; }
+  .ab-single-wrap .ab-soc-single span {
+    font-family: "PFBeauSansPro-Reg";
+    font-size: 13px;
+    color: #010101;
+    display: block;
+    padding-bottom: 18px; }
+  .ab-single-wrap .ab-soc-single img {
+    margin-bottom: 24px; }
+  .ab-single-wrap .second-2 {
+    border-bottom: none !important; }
 
 /*============= END single.php ================*/
 /*========= Mobile First Method =======*/
 @media only screen and (min-width: 480px) {
   /*============= single.php ================*/
+  .ab-a-next:after {
+    top: 58px !important; }
+
   .ab-single-img-1 {
     position: relative;
     max-width: 831px; }
@@ -246,6 +352,25 @@
   /*============= END single.php ================*/ }
 @media only screen and (min-width: 768px) {
   /*============= single.php ================*/
+  .ab-vid-next {
+    left: 35px;
+    position: absolute;
+    top: 37px; }
+    .ab-vid-next span {
+      font-family: "PFBeauSansPro-Reg";
+      font-size: 17px;
+      color: #fff; }
+
+  .ab-a-next:after {
+    top: 122px !important; }
+
+  .az-center2 .az-stars {
+    float: left; }
+  .az-center2 span {
+    float: left;
+    padding-top: 6px;
+    padding-left: 11px; }
+
   .ab-italic-txt {
     padding-left: 32px; }
     .ab-italic-txt span {
@@ -263,9 +388,21 @@
       left: 6% !important;
       top: -40px !important; }
 
+  .ab-single-second-title-4:after {
+    content: " ";
+    position: absolute;
+    background: url(../img/ab-str.png) no-repeat right center;
+    width: 19px;
+    height: 10px;
+    right: 144px;
+    top: 8px !important; }
+
   /*============= END single.php ================*/ }
 @media only screen and (min-width: 992px) {
   /*============= single.php ================*/
+  .ab-a-next:after {
+    top: 96px !important; }
+
   .ab-single-wrap {
     padding-left: 36px;
     padding-right: 41px;
@@ -292,6 +429,11 @@
       top: 48px; }
     .ab-single-wrap .ab-italic-txt-2 {
       padding-left: 45px; }
+    .ab-single-wrap .ab-single-second-title-3:after {
+      width: 19px;
+      height: 10px;
+      right: 112px;
+      top: 9px; }
 
   /*============= END single.php ================*/
   /*============  ab-footer  =============*/
@@ -305,6 +447,12 @@
   /*============  END ab-footer  =============*/ }
 @media only screen and (min-width: 1200px) {
   /*============= single.php ================*/
+  .ab-vid-next {
+    left: 45px; }
+
+  .ab-a-next:after {
+    top: 136px !important; }
+
   .ab-txt-img {
     max-width: 328px;
     float: left; }
