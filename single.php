@@ -108,7 +108,7 @@
 										Но этот материал имеет и несколько недостатков, основным из которых является его хрупкость.
 									</span>
 								</div>
-								<div class="clear"></div>
+								<div class="clearfix"></div>
 								<div class="ab-single-txt">
 									<span>
 										Потолочные пластиковые изделия выпускаются в большой цветовой гамме и разнообразной формы. Они тоже небольшого веса и легко приклеиваются. Срок их службы большой.
@@ -165,13 +165,78 @@
 										<span>Классический натяжной потолок</span>
 									</div>
 								</div>
-								<div class="clear"></div>
+								<div class="clearfix"></div>
 								<blockquote class="ab-tsitata-2">
 									<div class="ab-div-kav">
 										<span>&#8220;</span>
 									</div>
 									Потолочные пластиковые изделия выпускаются в большой цветовой гамме и разнообразной формы. Они тоже небольшого веса и легко приклеиваются. Срок их службы большой.
 								</blockquote>
+								<div class="ab-single-second-title ab-single-second-title-2 ab-single-second-title-3">
+									<span> 
+										Если нельзя потолочный плинтус или галтель закрепить 
+									</span>
+								</div>
+								<div class="ab-single-txt">
+									<span>
+										Декоративный плинтус бывает выполнен из различных материалов и самым дешевым является пенопластовый. Он имеет очень маленький вес и легко приклеивается прямо к обоям. Существует большой ассортимент его видов. 
+									</span>
+								</div>
+								<div class="ab-video">
+									<img class="img-responsive" src="img/ab-video.jpg" alt="">
+								</div>
+								<div class="ab-single-second-title ab-single-second-title-2 ab-single-second-title-4">
+									<span> 
+										Крепление потолочного плинтуса 
+									</span>
+								</div>
+								<div class="ab-single-txt ab-single-txt-new">
+									<span>
+										Для начала следует вспомнить, что представляет собой натяжной потолок. Это ткань или пленка из ПВХ, которые натягиваются и закрепляются в профиль. Они находятся в натянутом состоянии и удерживаются только по периметру. Никакого жесткого крепления у них нет. Как же клеить потолочный плинтус? Никак. Этого делать нельзя. И на то есть несколько причин.<br><br>
+										<span class="ab-bold">Во-первых,</span> из-за особенностей установки используемого в конструкции материала после фиксирования планки клеевой шов может просто отойти.<br><br>
+										<span class="ab-bold">Во-вторых,</span> из-за применяемого клея может испортиться полотно. Вот и получается, что клеить потолочные плинтуса к натяжным потолкам нельзя. Тогда каким образом решить проблему декорирования щели между стеной и потолком?
+									</span>
+								</div>
+								<table class="ab-table">
+								  <tr class="ab-table-title">
+								    <td>Наименование</td>
+								    <td>Описание</td>
+								  <tr class="ab-table-main">
+								    <td>Для начала следует вспомнить, что представляет</td>
+								    <td>Конструкции материала после фиксирования планки клеевой шов может просто отойти.</td>
+								  </tr>
+								  <tr class="ab-table-main">
+								    <td>Конструкции материала после фиксирования<br> планки</td>
+								    <td>Вот и получается, что клеить потолочные плинтуса к натяжным потолкам нельзя. Тогда каким образом решить проблему</td>
+								  </tr>
+								</table>
+								<div class="ab-single-txt">
+									<span>
+										Никакого жесткого крепления у них нет. Как же клеить потолочный плинтус? Никак. Этого делать нельзя. И на то есть несколько причин. 
+									</span>
+								</div>
+								<div class="az-center2">
+									<div class="az-stars">
+										<input type="radio" name="radio1" id="a0" class="radio0">
+										<input type="radio" name="radio1" id="a1" class="radio1">
+										<input type="radio" name="radio1" id="a2" class="radio2">
+										<input type="radio" name="radio1" id="a3" class="radio3">
+										<input type="radio" name="radio1" id="a4" class="radio4">
+										<input type="radio" name="radio1" id="a5" class="radio5">
+										<label for="a0" class="az-none"></label>
+										<label for="a1" class="label1"></label>
+										<label for="a2" class="label2"></label>
+										<label for="a3" class="label3"></label>
+										<label for="a4" class="label4"></label>
+										<label for="a5" class="label5"></label>
+									</div>
+									<span>Средняя оценка 4.0  оценили уже более 2301 раз</span>
+									<div class="clearfix"></div>
+								</div>
+								<div class="ab-soc-single">
+									<span>Поделиться с друзьями или сохранить ссылку</span>
+									<img class="img-responsive" src="img/ab-soc.png" alt="">
+								</div>
 							</div>
 						</div>
 					</div>

@@ -78,6 +78,64 @@
 
 /*============= single.php ================*/
 
+/*  Система голосования  */
+
+.az-center2{
+	margin-top:25px;
+	margin-bottom:31px;
+	.az-stars{
+	    display: inline-block;
+	    font-size: 0px;
+	    input[type="radio"]{
+	        display: none;
+	    }
+	    .az-none{
+	        display: none;
+	    }
+	    .label1, .label2, .label3, .label4, .label5{
+	    	margin-left:2px;
+	        width: 23px !important;
+	        height: 22px;
+	        display: inline-block;
+	        background: url(../img/az-star-grey.png) no-repeat top center;
+	        cursor: pointer;
+	    }
+	    .radio1:checked ~ label,
+	    .radio2:checked ~ label,
+	    .radio3:checked ~ label,
+	    .radio4:checked ~ label,
+	    .radio5:checked ~ label{
+	        background: url(../img/az-star-yellow.png) no-repeat top center;
+	    }
+	    .radio1:checked ~ .label1 ~ label,
+	    .radio2:checked ~ .label2 ~ label,
+	    .radio3:checked ~ .label3 ~ label,
+	    .radio4:checked ~ .label4 ~ label,
+	    .radio5:checked ~ .label5 ~ label{
+	        background: url(../img/az-star-grey.png) no-repeat top center;
+	    }
+
+	}
+	.az-stars:hover{
+	    label{
+	        background: url(../img/az-star-yellow.png) no-repeat top center !important;
+	    }
+	    .label1:hover ~ label,
+	    .label2:hover ~ label,
+	    .label3:hover ~ label,
+	    .label4:hover ~ label,
+	    .label5:hover ~ label{
+	        background: url(../img/az-star-grey.png) no-repeat top center !important;
+	    }
+	}
+	span{
+		font-family: "MyriadPro-Regular";
+		font-size: 11px;
+		color: #818487;
+		display: block;
+	}
+}
+
 .ab-single-img-1{
 	position:relative;
 	max-width:831px;
@@ -131,6 +189,8 @@
 	font-size: 33px;
 	color:#000000 !important;
 	line-height: 30px;
+	padding-top:23px;
+	padding-bottom:23px;
 	}
 	.ab-metki{
 		padding-bottom:18px;
@@ -287,7 +347,6 @@
 	.ab-tsitata-2{
 		background:#F9F7EA;
 		padding:29px 10px;
-		//padding:29px 100px;
 		font-family: "PFBeauSansPro-Reg";
 		font-size: 18px;
 		position:relative;
@@ -301,6 +360,83 @@
 				font-size: 180px;
 				color: #F3B217;
 			}
+		}
+	}
+	.ab-single-second-title-3{
+		span{
+			font-size: 22px !important;
+		}
+	}
+	.ab-video{
+		margin-top:26px; 
+		padding:13px;
+		background:#F1F4F6;
+		position:relative;
+		img{
+			width: 100%;
+		}
+	}
+	.ab-video:after{
+		position:absolute;
+		content: "";
+		width: 116px;
+		height: 116px;
+		background:url(../img/ab-play-video.png) no-repeat;
+		left: 50%;
+		transform: translate(-50%,0);
+		top: 11px;
+	}
+
+	.ab-single-second-title-4{
+		span{
+			font-size: 20px;
+		}
+	}
+	.ab-single-txt-new{
+		span{
+			.ab-bold{
+				 font-family: "PFBeauSansPro-SeBold";
+			}
+		}
+	}
+	.ab-table{
+		margin-top: 36px;
+		margin-bottom: 29px;
+		tr{
+			border:1px solid #EEEFF3;
+		}
+		td{
+			border:1px solid #EEEFF3;
+		}
+		.ab-table-title{
+			background:#F3B217;
+			font-family: "PFBeauSansPro-SeBold";
+			font-size: 18px;
+			color:#fff;
+			td{
+			padding-top:20px;
+			padding-bottom:20px;
+			padding-left:35px;
+			}
+		}
+		.ab-table-main{
+			font-family: "PFBeauSansPro-Reg";
+			font-size: 16px;
+			td{
+				padding:12px 29px;
+			}
+		}
+	}
+	.ab-soc-single{
+		span{
+			font-family: "PFBeauSansPro-Reg";
+			font-size: 13px;
+			color:#010101;
+			display: block;
+			padding-bottom:18px;
+		}
+		img{
+			margin-bottom: 24px;
 		}
 	}
 }
@@ -325,6 +461,10 @@
 @media only screen and (min-width : 480px) {
 
 /*============= single.php ================*/
+	.ab-video:after{
+	
+		top: 58px !important;
+	}
 
 	.ab-single-img-1{
 		position:relative;
@@ -350,6 +490,20 @@
 
 /*============= single.php ================*/
 
+	.ab-video:after{
+		top: 122px !important;
+		}
+
+	.az-center2{
+		.az-stars{
+			float: left;
+		}
+		span{
+			float: left;
+			padding-top:6px;
+			padding-left:11px;
+		}
+	}
 	.ab-italic-txt{
 		padding-left:32px;
 		span{
@@ -370,7 +524,15 @@
 			top: -40px !important;
 		}
 	}		
-
+	.ab-single-second-title-4:after{
+			content: " ";
+			position:absolute;
+			background:url(../img/ab-str.png) no-repeat right center;
+			width: 19px;
+			height: 10px;
+			right: 144px;
+		    top: 8px !important;
+		}
 /*============= END single.php ================*/
 
 }
@@ -378,6 +540,10 @@
 @media only screen and (min-width : 992px) {
 
 /*============= single.php ================*/
+	
+	.ab-video:after{
+		top: 96px !important;
+		}
 
 	.ab-single-wrap{
 		padding-left:36px;
@@ -411,7 +577,13 @@
 		.ab-italic-txt-2{
 		padding-left:45px;
 		}
-
+		.ab-single-second-title-3:after{
+			width: 19px;
+			height: 10px;
+			right: 112px;
+		    top: 9px;
+		}
+		
 	}
 
 /*============= END single.php ================*/	
@@ -439,6 +611,10 @@
 @media only screen and (min-width : 1200px) {
 
 /*============= single.php ================*/
+	
+	.ab-video:after{
+		top: 136px !important;
+		}
 
     .ab-txt-img{
 			max-width: 328px;
