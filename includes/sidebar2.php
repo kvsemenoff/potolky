@@ -109,7 +109,7 @@
 		</div>
 		<div class="az-zapis az-zapis-border">
 			<div class="az-zapis-left">
-				<img src="img/az-img1.jpg" alt="">
+				<img src="img/az-img2.jpg" alt="">
 			</div>
 			<div class="az-zapis-right">
 				<a href="#" class="az-zapis1">Кожа — необычный и стильный вид отделки потолка</a>
@@ -119,7 +119,7 @@
 		</div>
 		<div class="az-zapis">
 			<div class="az-zapis-left">
-				<img src="img/az-img1.jpg" alt="">
+				<img src="img/az-img3.jpg" alt="">
 			</div>
 			<div class="az-zapis-right">
 				<a href="#" class="az-zapis1">Стеклянные полотна перестали считаться неподходящим</a>

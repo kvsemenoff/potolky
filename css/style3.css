@@ -257,10 +257,11 @@ body, html {
   font-family: "PFBeauSansPro-Reg";
   font-size: 16px;
   line-height: 19px;
-  color: #000; }
+  color: #000;
+  display: block; }
 
 .az-zapis2 {
-  display: block;
+  display: inline-block;
   padding-left: 16px;
   position: relative;
   font-family: "PFBeauSansPro-Reg";
@@ -277,7 +278,56 @@ body, html {
   width: 14px;
   height: 14px; }
 
+.az-zapis2_style:before {
+  background: url(../img/az-label2.png); }
+
+.az-zapis2_style2:before {
+  background: url(../img/az-comm.png);
+  width: 13px;
+  height: 13px; }
+
 /*zapisi*/
+/*popstat*/
+.pop-stat {
+  width: 100%;
+  background: #f9fafb;
+  padding-bottom: 35px; }
+
+.pop-stat-head {
+  font-size: 26px;
+  font-family: "PFBeauSansPro-SeBold";
+  color: #000000;
+  border-top: 2px solid #f3b217;
+  display: inline-block;
+  line-height: 70px; }
+
+.az-stat-left {
+  width: 100%; }
+
+.az-stat-right {
+  width: 100%; }
+
+.az-stat-title {
+  font-family: "PFBeauSansPro-Book";
+  font-size: 21px;
+  color: #000;
+  line-height: 24px;
+  display: block; }
+
+.az-stat-text {
+  font-family: "Conv_MyriadPro-Regular";
+  font-size: 15px;
+  color: #444446;
+  line-height: 23px;
+  display: block; }
+
+/*popstat*/
+.az-img-box {
+  width: 100%; }
+  .az-img-box img {
+    width: 100%;
+    height: auto; }
+
 /*margins*/
 .az-margin-top35 {
   margin-top: 35px; }
@@ -291,7 +341,20 @@ body, html {
 .az-margin-top16 {
   margin-top: 16px; }
 
+.az-margin-left4 {
+  margin-left: 4px; }
+
+.az-margin1 {
+  margin: 0px 6px 0px 4px; }
+
+@media only screen and (min-width: 480px) {
+  .pop-stat {
+    padding-left: 28px;
+    padding-right: 28px; } }
 @media only screen and (min-width: 992px) {
+  .pop-stat-head {
+    margin-left: 0px; }
+
   .az-zapis-left {
     float: left;
     width: 30%; }
@@ -308,5 +371,16 @@ body, html {
 
   .header-buffer {
     height: 401px; } }
+@media only screen and (min-width: 1200px) {
+  .pop-stat {
+    padding-right: 0px; }
+
+  .az-stat-left {
+    float: left;
+    width: 65%; }
+
+  .az-stat-right {
+    float: right;
+    width: 35%; } }
 
 /*# sourceMappingURL=style3.css.map */
