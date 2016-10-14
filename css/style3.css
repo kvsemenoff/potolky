@@ -445,10 +445,92 @@ body, html {
   width: 100%;
   background: url(../img/az-tov1.png) repeat-x center center; }
 
+.az-tovar {
+  width: 100%; }
+
+.az-img-box2 {
+  width: 100%;
+  border: 1px solid #e2e5ef;
+  height: 157px;
+  position: relative;
+  overflow: hidden; }
+  .az-img-box2 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.az-tov-head1 {
+  margin-left: 17px;
+  padding: 0px 7px 0px 10px;
+  float: left;
+  background: #fff; }
+
+.az-tov-head2 {
+  float: left;
+  background: #fff;
+  padding: 0px 5px 0 7px; }
+
+.az-add {
+  float: right;
+  padding: 0px 35px 0px 13px;
+  background: #fff;
+  margin-right: 5px; }
+
+.az-tovari-title {
+  font-family: "PFBeauSansPro-SeBold";
+  font-size: 32px;
+  color: #000;
+  line-height: 40px; }
+
+.az-look {
+  font-family: "PFBeauSansPro-SeBold";
+  font-size: 14px;
+  color: #b5bbc1;
+  text-decoration: underline;
+  line-height: 40px; }
+
+.az-add a {
+  font-family: "PFBeauSansPro-Bold";
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 45px;
+  padding-right: 20px;
+  background: #e32b45 url(../img/az-plus.png) no-repeat 20px center;
+  display: inline-block;
+  border-radius: 5px; }
+
+.az-tovar-title {
+  font-family: "PFBeauSansPro-Book";
+  font-size: 17px;
+  color: #000;
+  display: block; }
+
+.az-tovar-text {
+  font-family: "PFBeauSansPro-Reg";
+  font-size: 14px;
+  color: #444446;
+  display: block; }
+
+.az-tovar-price {
+  font-family: "PFBeauSansPro-Book";
+  color: #639202;
+  font-size: 15px; }
+  .az-tovar-price strong {
+    font-family: "PFBeauSansPro-SeBold";
+    font-size: 24px; }
+
 /*tovari*/
 /*margins*/
 .az-margin-top--20px {
-  margin-top: -20px; }
+  position: relative;
+  top: -20px; }
+
+.az-margin-top70 {
+  margin-top: 70px; }
 
 .az-margin-top35 {
   margin-top: 35px; }
@@ -493,6 +575,9 @@ body, html {
   .pop-stat {
     padding-left: 28px;
     padding-right: 28px; } }
+@media only screen and (min-width: 768px) {
+  .az-tovar-title {
+    white-space: nowrap; } }
 @media only screen and (min-width: 992px) {
   .pop-stat-head {
     margin-left: 0px; }
