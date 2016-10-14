@@ -4,8 +4,9 @@
 @import url(style4.css);
 @import url(fonts.css);
 /*# sourceMappingURL=style5.css.map */
-.zk_photos_osn .clear {
+.clear {
   clear: both; }
+
 .zk_photos_osn .first, .zk_photos_osn .second {
   font-size: 26px;
   font-family: "PFBeauSansPro-SeBold";
@@ -24,18 +25,18 @@
   display: block; }
   .zk_photos_osn .zk_photos li.zk_photo {
     display: block;
-    float: left;
-    max-height: 130px;
-    overflow: hidden;
-    width: 19.75%;
-    margin-right: 0.312%;
+    width: 100%;
     box-sizing: border-box; }
     .zk_photos_osn .zk_photos li.zk_photo img {
+      display: block;
+      width: 100%;
+      height: auto;
       background-size: cover; }
   .zk_photos_osn .zk_photos li:last-child {
     margin-right: 0; }
   .zk_photos_osn .zk_photos li a {
-    display: inline-block;
+    display: block;
+    width: 100%;
     position: relative;
     z-index: 9; }
   .zk_photos_osn .zk_photos li a:hover:before {
@@ -58,30 +59,100 @@
     z-index: 11;
     left: 50%;
     transform: translate(-50%, 0); }
-.zk_photos_osn .zk_videos .zk_video {
-  float: left; }
+.zk_photos_osn .zk_videos {
+  margin-bottom: 30px; }
   .zk_photos_osn .zk_videos .zk_video img {
+    width: 100%;
     background-size: cover; }
-  .zk_photos_osn .zk_videos .zk_video .zk_videos a {
+  .zk_photos_osn .zk_videos .zk_video li a {
     display: inline-block;
     position: relative;
     z-index: 9; }
-  .zk_photos_osn .zk_videos .zk_video .zk_videos a:hover:before {
+  .zk_photos_osn .zk_videos .zk_video li a:hover:after {
     content: "";
     position: absolute;
-    left: 0;
-    top: 0;
-    background: url(../img/video_hover.png) no-repeat left center;
-    z-index: 10;
-    outline: 1px solid red; }
-  .zk_photos_osn .zk_videos .zk_video .zk_videos a:hover:after {
-    content: "";
-    position: absolute;
+    width: 51px;
+    height: 60px;
     left: 50%;
     top: 40%;
     background: url(../img/video_hover.png) no-repeat left center;
-    z-index: 11;
+    z-index: 10;
     left: 50%;
     transform: translate(-50%, 0); }
+
+.banner_vopros {
+  font-family: "PFBeauSansPro-SeBold";
+  width: 100%; }
+  .banner_vopros .zk_banner {
+    padding: 0 8px;
+    margin-bottom: 37px;
+    margin-top: 30px;
+    position: relative; }
+  .banner_vopros .zk_text {
+    position: absolute;
+    top: 80px;
+    right: 40px; }
+    .banner_vopros .zk_text h3 {
+      font-size: 9px;
+      color: #ffffff; }
+    .banner_vopros .zk_text p {
+      font-size: 4px;
+      color: #acacae;
+      font-family: "PFBeauSansPro-Reg"; }
+  .banner_vopros .zk_banner_vop {
+    width: 50px;
+    height: 15px;
+    font-size: 4px;
+    color: #ffffff;
+    background: #e32b45;
+    border-radius: 3px;
+    font-weight: bold;
+    text-align: center;
+    padding: 4px 0;
+    position: absolute;
+    top: 135px;
+    right: 210px; }
+
+@media only screen and (min-width: 480px) {
+  .zk_photos li.zk_photo {
+    float: left;
+    width: 50% !important; }
+
+  .zk_text {
+    top: 98px !important;
+    right: 85px !important; }
+    .zk_text h3 {
+      font-size: 14px !important; }
+    .zk_text p {
+      font-size: 10px !important; }
+
+  .zk_banner_vop {
+    width: 70px;
+    height: 25px;
+    font-size: 6px;
+    padding: 34x 0;
+    top: 115px;
+    right: 130px; } }
+@media only screen and (min-width: 768px) {
+  .zk_video li {
+    width: 48%;
+    float: left;
+    margin-right: 10px;
+    display: block;
+    outline: 1px solid red; } }
+@media only screen and (min-width: 992px) {
+  .zk_photos li.zk_photo {
+    max-height: 130px;
+    overflow: hidden;
+    width: 19.75% !important;
+    margin-right: 0.312%; }
+  .zk_photos li:last-child {
+    margin-right: 0; }
+
+  .zk_videos .zk_video {
+    float: left; }
+    .zk_videos .zk_video li {
+      width: 100%;
+      clear: both; } }
 
 /*# sourceMappingURL=style5.css.map */

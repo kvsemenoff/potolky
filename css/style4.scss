@@ -372,11 +372,16 @@
 		padding:13px;
 		background:#F1F4F6;
 		position:relative;
+		.ab-vid-next{
+			span{
+				font-family: "PFBeauSansPro-Reg";
+				font-size: 17px;
+			}
+		}
 		img{
 			width: 100%;
 		}
-	}
-	.ab-video:after{
+		.ab-a-next:after{
 		position:absolute;
 		content: "";
 		width: 116px;
@@ -384,8 +389,11 @@
 		background:url(../img/ab-play-video.png) no-repeat;
 		left: 50%;
 		transform: translate(-50%,0);
-		top: 11px;
+		top: 5%;
+		}
+
 	}
+	
 
 	.ab-single-second-title-4{
 		span{
@@ -439,6 +447,9 @@
 			margin-bottom: 24px;
 		}
 	}
+	.second-2{
+		border-bottom:none !important;
+	}
 }
 
 
@@ -461,8 +472,9 @@
 @media only screen and (min-width : 480px) {
 
 /*============= single.php ================*/
-	.ab-video:after{
-	
+
+
+	.ab-a-next:after{
 		top: 58px !important;
 	}
 
@@ -490,7 +502,18 @@
 
 /*============= single.php ================*/
 
-	.ab-video:after{
+	.ab-vid-next{
+		left: 35px;
+	    position: absolute;
+	    top: 37px;
+		span{
+			font-family: "PFBeauSansPro-Reg";
+			font-size: 17px;
+			color:#fff;
+		}
+	}
+
+	.ab-a-next:after{
 		top: 122px !important;
 		}
 
@@ -540,8 +563,10 @@
 @media only screen and (min-width : 992px) {
 
 /*============= single.php ================*/
+
+
 	
-	.ab-video:after{
+	.ab-a-next:after{
 		top: 96px !important;
 		}
 
@@ -612,7 +637,11 @@
 
 /*============= single.php ================*/
 	
-	.ab-video:after{
+	.ab-vid-next{
+		left: 45px;
+	}
+	
+	.ab-a-next:after{
 		top: 136px !important;
 		}
 

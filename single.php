@@ -183,7 +183,10 @@
 									</span>
 								</div>
 								<div class="ab-video">
-									<img class="img-responsive" src="img/ab-video.jpg" alt="">
+									<a class="ab-a-next" href="#"><img class="img-responsive" src="img/ab-video.jpg" alt=""></a>
+									<div class="ab-vid-next">
+										<span>Потолочные пластиковые изделия выпускаются в большой цветовой</span>
+									</div>
 								</div>
 								<div class="ab-single-second-title ab-single-second-title-2 ab-single-second-title-4">
 									<span> 
@@ -236,6 +239,22 @@
 								<div class="ab-soc-single">
 									<span>Поделиться с друзьями или сохранить ссылку</span>
 									<img class="img-responsive" src="img/ab-soc.png" alt="">
+								</div>
+								<div class="zk_photos_osn">	
+									<h3 class="second second-2">Видео по теме</h3>
+									<div class="zk_videos ">			
+										<div class="col-md-6">
+											<ul class="zk_video">
+												<li><a href="#"  ><img src="../img/video1.png" alt=""></a></li>
+											</ul>
+										</div>
+										<div class="col-md-6">
+											<ul class="zk_video">
+												<li><a href="#" class="zk_video"><img src="../img/video2.png" alt=""></a></li>
+											</ul>	
+										</div>
+									</div>	
+									<div class="clear"></div>   
 								</div>
 							</div>
 						</div>
