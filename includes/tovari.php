@@ -8,9 +8,9 @@
 				<div class="az-tov-head2">
 					<a href="#" class="az-look">посмотреть все</a>
 				</div>
-				<div class="az-add">
+				<!-- <div class="az-add">
 					<a href="#" >Добавить товар</a>
-				</div>
+				</div> -->
 				<div class="clearfix"></div>
 			</div>
 			<div>
@@ -54,4 +54,96 @@
 			</div>
 		</div>
 	</div>
+</div>
+<div class="az-margin-top45">
+	<div class="az-col1">
+		<div class="az-cat">
+			<div class="az-img-box az-img-box_style">
+				<img src="img/az-cat1.jpg" alt="">
+				<div class="az-col">более 230 статей</div>
+			</div>
+			<div class="az-cat-title az-margin-top10">Натяжные потолки</div>
+			<ul class="az-cat-list az-margin-top10">
+				<li><a href="#">Монтаж своими руками</a></li>
+				<li><a href="#">Материалы</a></li>
+				<li><a href="#">Плюсы и минусы</a></li>
+				<li><a href="#">Расчет</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="az-col1">
+		<div class="az-cat">
+			<div class="az-img-box az-img-box_style">
+				<img src="img/az-cat2.jpg" alt="">
+				<div class="az-col">более 155 статей</div>
+			</div>
+			<div class="az-cat-title az-margin-top10">Крашенные потолки</div>
+			<ul class="az-cat-list az-margin-top10">
+				<li><a href="#">Как сделать самому</a></li>
+				<li><a href="#">Материалы</a></li>
+				<li><a href="#">Плюсы и минусы</a></li>
+				<li><a href="#">Расчет</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="az-col1">
+		<div class="az-cat">
+			<div class="az-img-box az-img-box_style">
+				<img src="img/az-cat3.jpg" alt="">
+				<div class="az-col">более 921 статей</div>
+			</div>
+			<div class="az-cat-title az-margin-top10">Подвесные потолки</div>
+			<ul class="az-cat-list az-margin-top10">
+				<li><a href="#">Монтаж своими руками</a></li>
+				<li><a href="#">Материалы</a></li>
+				<li><a href="#">Плюсы и минусы</a></li>
+				<li><a href="#">Расчет</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="az-col1">
+		<div class="az-cat">
+			<div class="az-img-box az-img-box_style">
+				<img src="img/az-cat4.jpg" alt="">
+				<div class="az-col">более 162 статей</div>
+			</div>
+			<div class="az-cat-title az-margin-top10">Реечные потолки</div>
+			<ul class="az-cat-list az-margin-top10">
+				<li><a href="#">Монтаж своими руками</a></li>
+				<li><a href="#">Материалы</a></li>
+				<li><a href="#">Плюсы и минусы</a></li>
+				<li><a href="#">Расчет</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="az-col1">
+		<div class="az-cat">
+			<div class="az-img-box az-img-box_style">
+				<img src="img/az-cat5.jpg" alt="">
+				<div class="az-col">более 221 статей</div>
+			</div>
+			<div class="az-cat-title az-margin-top10">Деревянные потолки</div>
+			<ul class="az-cat-list az-margin-top10">
+				<li><a href="#">Монтаж своими руками</a></li>
+				<li><a href="#">Материалы</a></li>
+				<li><a href="#">Плюсы и минусы</a></li>
+				<li><a href="#">Расчет</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="az-col1">
+		<div class="az-cat">
+			<div class="az-img-box az-img-box_style">
+				<img src="img/az-cat6.jpg" alt="">
+				<div class="az-col">более 640 статей</div>
+			</div>
+			<div class="az-cat-title az-margin-top10">Дизайнерские потолки</div>
+			<ul class="az-cat-list az-margin-top10">
+				<li><a href="#">Монтаж своими руками</a></li>
+				<li><a href="#">Материалы</a></li>
+				<li><a href="#">Плюсы и минусы</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="clearfix"></div>
 </div>

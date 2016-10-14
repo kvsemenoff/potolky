@@ -377,6 +377,9 @@ body, html {
     color: #37373a;
     line-height: 20px; }
 
+.az-img-box_style {
+  position: relative; }
+
 /*imgbox*/
 /*rubriki*/
 .az-rubriki {
@@ -531,6 +534,9 @@ body, html {
 
 .az-margin-top70 {
   margin-top: 70px; }
+
+.az-margin-top45 {
+  margin-top: 45px; }
 
 .az-margin-top35 {
   margin-top: 35px; }
