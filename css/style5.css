@@ -96,22 +96,22 @@
       font-size: 9px;
       color: #ffffff; }
     .banner_vopros .zk_text p {
-      font-size: 4px;
+      font-size: 5px;
       color: #acacae;
       font-family: "PFBeauSansPro-Reg"; }
   .banner_vopros .zk_banner_vop {
     width: 50px;
-    height: 15px;
+    height: 12px;
     font-size: 4px;
     color: #ffffff;
     background: #e32b45;
     border-radius: 3px;
     font-weight: bold;
     text-align: center;
-    padding: 4px 0;
+    padding: 3px 0;
     position: absolute;
-    top: 135px;
-    right: 210px; }
+    top: 100px;
+    right: 105px; }
 
 @media only screen and (min-width: 480px) {
   .zk_photos li.zk_photo {
@@ -124,22 +124,38 @@
     .zk_text h3 {
       font-size: 14px !important; }
     .zk_text p {
-      font-size: 10px !important; }
+      font-size: 7px !important; }
 
   .zk_banner_vop {
-    width: 70px;
-    height: 25px;
-    font-size: 6px;
-    padding: 34x 0;
-    top: 115px;
-    right: 130px; } }
+    width: 70px !important;
+    height: 15px !important;
+    font-size: 6px !important;
+    padding: 4px 0 !important;
+    top: 130px !important;
+    right: 188px !important; } }
 @media only screen and (min-width: 768px) {
   .zk_video li {
     width: 48%;
     float: left;
     margin-right: 10px;
     display: block;
-    outline: 1px solid red; } }
+    outline: 1px solid red; }
+
+  .zk_text {
+    top: 120px !important;
+    right: 180px !important; }
+    .zk_text h3 {
+      font-size: 18px !important; }
+    .zk_text p {
+      font-size: 10px !important; }
+
+  .zk_banner_vop {
+    width: 90px !important;
+    height: 20px !important;
+    font-size: 8px !important;
+    padding: 5px 0 !important;
+    top: 165px !important;
+    right: 310px !important; } }
 @media only screen and (min-width: 992px) {
   .zk_photos li.zk_photo {
     max-height: 130px;
@@ -153,6 +169,38 @@
     float: left; }
     .zk_videos .zk_video li {
       width: 100%;
-      clear: both; } }
+      clear: both; }
+
+  .zk_text {
+    top: 100px !important;
+    right: 80px !important; }
+    .zk_text h3 {
+      font-size: 22px !important; }
+    .zk_text p {
+      font-size: 12px !important; }
+
+  .zk_banner_vop {
+    width: 115px !important;
+    height: 30px !important;
+    font-size: 10px !important;
+    padding: 10px 0 !important;
+    top: 150px !important;
+    right: 235px !important; } }
+@media only screen and (min-width: 1200px) {
+  .zk_text {
+    top: 130px !important;
+    right: 145px !important; }
+    .zk_text h3 {
+      font-size: 26px !important; }
+    .zk_text p {
+      font-size: 13px !important; }
+
+  .zk_banner_vop {
+    width: 145px !important;
+    height: 34px !important;
+    font-size: 12px !important;
+    padding: 10px 0 !important;
+    top: 190px !important;
+    right: 320px !important; } }
 
 /*# sourceMappingURL=style5.css.map */
