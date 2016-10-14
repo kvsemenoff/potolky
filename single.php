@@ -45,10 +45,10 @@
 						<div class="az-border">
 							<div class="ab-single-wrap">
 								<div class="ab-brad-crumps">
-									<span><a href="#">О потолках</a></span>
-									<span class="ab-slash">/</span>
-									<span><a href="#">Статьи</a></span>
-									<span class="ab-slash">/</span>
+									<a href="#">О потолках</a>
+									/
+									<a href="#">Статьи</a>
+									/
 									<span>Путь до внутренней страницы</span>
 								</div>
 								<h1>Как приклеить потолочный плинтус на полотно натяжного потолка</h1>

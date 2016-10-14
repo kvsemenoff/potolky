@@ -6,10 +6,12 @@
 @import url(fonts.css);
 
 /*# sourceMappingURL=style5.css.map */
+                    //fotografii.php
+.clear{
+    clear:both;
+}
 .zk_photos_osn{
-        .clear{
-            clear:both;
-           }
+        
             .first, .second{
           font-size: 26px;
           font-family: "PFBeauSansPro-SeBold";
@@ -26,29 +28,24 @@
         .zk_photos { 
             width: 100%;
             display: block;
-
             li.zk_photo {
                 display: block;
-                float: left;  
-                max-height: 130px;         
-                overflow: hidden;
-                width: 19.75%;
-                margin-right: 0.312%;             
+                width: 100%;
                 box-sizing: border-box;
                 img{
-                    //width: 100%;
-                    //height: auto;
-                    background-size: cover;
-                   
+                    display: block;
+                    width: 100%;
+                    height: auto;
+                    background-size: cover;                  
                 }
-                            
             }  
             li:last-child{
                 margin-right: 0;
             }
-            
             li a{
-                display: inline-block;
+                display: block;
+                width: 100%;
+
                 position: relative;
                 z-index: 9;                
             }     
@@ -75,43 +72,145 @@
                 transform: translate(-50%, 0);
             }
         }
-        .zk_videos{          
-            .zk_video {
-              float: left;              
+        .zk_videos{   
+            margin-bottom: 30px;       
+            .zk_video {                            
                 img{
-                    //width: 100%;
-                    //height:auto;
+                    width: 100%;
                     background-size: cover;
                 }
-                .zk_videos a{
+                 li a{
                     display: inline-block;
                     position: relative;
                     z-index: 9;                
                 }     
-                .zk_videos a:hover:before{
+                 
+                 li a:hover:after{
                     content:"";
                     position: absolute;
-                   // width: 100%;
-                  //  height: 100%;
-                    left:0;
-                    top:0;
-                    background: url(../img/video_hover.png) no-repeat left center;
-                    z-index: 10;
-                    outline:1px solid red;
-                }  
-                .zk_videos a:hover:after{
-                    content:"";
-                    position: absolute;
-                    //width: 30px;
-                    //height: 30px;
+                    width: 51px;
+                    height: 60px;
                     left:50%;
                     top:40%;
                     background: url(../img/video_hover.png) no-repeat left center;
-                    z-index: 11;
+                    z-index: 10;
                     left: 50%;
-                    transform: translate(-50%, 0);
+                    transform: translate(-50%, 0);                                
                 }  
             }
         }
 }
 
+
+
+
+
+
+.banner_vopros{
+     font-family: "PFBeauSansPro-SeBold";
+     width:100%;
+    .zk_banner{
+        //width: 50%;        
+        padding:0 8px;
+        margin-bottom: 37px;margin-top: 30px;
+        position: relative;
+    }
+    .zk_text{ 
+        position:absolute;
+        top:  80px;             //140px;
+        right: 40px;                //90px;       
+         h3{
+            font-size:9px;      //30px;
+            color:#ffffff;
+        }
+        p{
+            font-size:4px;        //15px;
+            color:#acacae;
+            font-family: "PFBeauSansPro-Reg";
+        }
+    }
+    .zk_banner_vop{
+        width:50px;      //162px;
+        height: 15px;        //38px;
+        font-size: 4px;            //14px;
+        color:#ffffff;
+        background: #e32b45;
+        border-radius: 3px;
+        font-weight: bold;
+        text-align: center;
+        padding: 4px 0;        //12
+        position: absolute;
+        top:  135px;             //210px;
+        right: 210px;            //297px;
+    }
+}
+
+
+
+
+@media only screen and (min-width : 320px) {
+
+}
+
+@media only screen and (min-width : 480px) {   
+    .zk_photos{ 
+        li.zk_photo {                
+            float: left;  
+            width: 50% !important;
+        }
+    }
+
+    .zk_text{         
+        top: 98px !important;             //140px;
+        right: 85px !important;                //90px;       
+         h3{
+            font-size:14px !important;     //30px;
+           
+        }
+        p{
+            font-size:10px !important;       //15px;
+        }
+    }
+    .zk_banner_vop{
+        width:70px;      //162px;
+        height: 25px;        //38px;
+        font-size: 6px;            //14px;
+        padding: 34x 0;        //12
+        top:  115px;             //210px;
+        right: 130px;            //297px;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+        .zk_video li {            
+          width:48% ;
+          float:left;
+          margin-right:10px;
+          display: block;
+          outline:1px solid red;   
+        }
+}
+
+
+@media only screen and (min-width : 992px) {
+    .zk_photos { 
+        li.zk_photo {
+            max-height: 130px;         
+            overflow: hidden;
+            width: 19.75% !important;
+            margin-right: 0.312%;             
+        }  
+        li:last-child{
+            margin-right: 0;
+        }
+    }
+    .zk_videos{   
+            .zk_video {
+                 float: left;                 
+                li{            
+                  width:100% ;
+                  clear:both;
+                 }   
+            }
+    }                 
+}

@@ -79,15 +79,12 @@
     font-size: 18px;
     color: #303032;
     line-height: 25px; }
-  .ab-single-wrap .ab-brad-crumps span {
-    font-family: "Conv_MyriadPro-Regular";
-    font-size: 14px; }
-    .ab-single-wrap .ab-brad-crumps span a {
-      color: #252728; }
+  .ab-single-wrap .ab-brad-crumps a {
+    color: #252728;
+    font-family: "PFBeauSansPro-Reg"; }
   .ab-single-wrap .ab-brad-crumps span:last-child {
-    color: #5C5F62; }
-  .ab-single-wrap .ab-brad-crumps .ab-slash {
-    color: #BBBBBB; }
+    color: #5C5F62;
+    font-family: "PFBeauSansPro-Reg"; }
   .ab-single-wrap h1 {
     font-family: "Conv_MyriadPro-Regular";
     font-size: 33px;
