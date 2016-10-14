@@ -6,6 +6,7 @@
 @import url(fonts.css);
 
 /*# sourceMappingURL=style5.css.map */
+                    //fotografii.php
 .clear{
     clear:both;
 }
@@ -105,6 +106,46 @@
 
 
 
+.banner_vopros{
+     font-family: "PFBeauSansPro-SeBold";
+     width:100%;
+    .zk_banner{
+        //width: 50%;        
+        padding:0 8px;
+        margin-bottom: 37px;margin-top: 30px;
+        position: relative;
+    }
+    .zk_text{ 
+        position:absolute;
+        top:  80px;             //140px;
+        right: 40px;                //90px;       
+         h3{
+            font-size:9px;      //30px;
+            color:#ffffff;
+        }
+        p{
+            font-size:4px;        //15px;
+            color:#acacae;
+            font-family: "PFBeauSansPro-Reg";
+        }
+    }
+    .zk_banner_vop{
+        width:50px;      //162px;
+        height: 15px;        //38px;
+        font-size: 4px;            //14px;
+        color:#ffffff;
+        background: #e32b45;
+        border-radius: 3px;
+        font-weight: bold;
+        text-align: center;
+        padding: 4px 0;        //12
+        position: absolute;
+        top:  135px;             //210px;
+        right: 210px;            //297px;
+    }
+}
+
+
 
 
 @media only screen and (min-width : 320px) {
@@ -118,15 +159,35 @@
             width: 50% !important;
         }
     }
+
+    .zk_text{         
+        top: 98px !important;             //140px;
+        right: 85px !important;                //90px;       
+         h3{
+            font-size:14px !important;     //30px;
+           
+        }
+        p{
+            font-size:10px !important;       //15px;
+        }
+    }
+    .zk_banner_vop{
+        width:70px;      //162px;
+        height: 25px;        //38px;
+        font-size: 6px;            //14px;
+        padding: 34x 0;        //12
+        top:  115px;             //210px;
+        right: 130px;            //297px;
+    }
 }
 
 @media only screen and (min-width : 768px) {
         .zk_video li {            
           width:48% ;
           float:left;
-          margin-right: 10px;
-          
-
+          margin-right:10px;
+          display: block;
+          outline:1px solid red;   
         }
 }
 
