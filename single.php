@@ -239,7 +239,11 @@
 								<div class="ab-soc-single">
 									<span>Поделиться с друзьями или сохранить ссылку</span>
 									<img class="img-responsive" src="img/ab-soc.png" alt="">
-								</div>
+								</div><br>
+
+							
+								<?php require_once('includes/vozniklivoprosi.php'); ?>
+
 								<div class="zk_photos_osn">	
 									<h3 class="second second-2">Видео по теме</h3>
 									<div class="zk_videos ">			
