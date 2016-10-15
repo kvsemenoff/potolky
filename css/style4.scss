@@ -78,8 +78,139 @@
 
 /*============= single.php ================*/
 
-/*  Система голосования  */
+.ab-span-input{
+	padding-bottom:13px;
+	span{
+		font-family: "PFBeauSansPro-Reg";
+		font-size: 15px;
+		color:#000000;
+	}
+}
 
+.ab-podpis{
+	padding-bottom:12px;
+	span{
+		font-family: "PFBeauSansPro-Reg";
+		font-size: 11px;
+		color:#818487;
+	}
+}
+
+.vhod-bottom{
+	width: 100%;
+	display: -webkit-flex; 
+	display: flex; 
+	justify-content: space-between;
+	align-items: center;
+	height: 40px;
+	margin-bottom: 17px;
+}
+
+.vhod-bottom-2{
+	height: 100px;
+}
+
+.search-box{
+    width: 100%;
+}
+
+.ab-f{
+    display: block;
+    position: relative;
+    border-radius: 3px;
+    width: 100%;
+    height: 51px;
+    border: 1px solid #cbd1d6;
+    box-sizing: border-box;
+}
+
+form{
+	display: block;
+    border-radius: 3px;
+    width: 100%;
+    
+    border: 1px solid #cbd1d6;
+    box-sizing: border-box;
+}
+
+input[type="text"]{
+    width: 100%;
+    height: 49px;
+    line-height: 49px;
+    padding: 0px 34px;
+    border: none;
+    box-sizing: border-box;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    color: #97a3ad;
+    max-height: 100%;
+    max-width: 100%;
+    font-family: "OpenSans-Semibold";
+    outline: none !important;
+    letter-spacing: .02em;
+}
+
+.ab-ff{
+	width: 100%;
+    height: 97px;
+    overflow: hidden;
+    padding: 5px 15px;
+    border: none;
+    box-sizing: border-box;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    color: #97a3ad;
+    font-family: "OpenSans-Semibold";
+    outline: none !important;
+    letter-spacing: .02em;
+	margin-bottom:20px;
+	resize:none;
+}
+
+.ab-span-input-2{
+	span:last-child{
+		font-size: 11px;
+		font-family: "PFBeauSansPro-Reg";
+		color: #818487;
+		padding-left:15px;
+	}
+}
+
+.ab-first-input{
+	display:inline-block;
+	position:relative;
+	z-index:10;
+}
+.ab-first-input:after{
+	position:absolute;
+	content:"";
+	background:url(../img/ab-chel.png) no-repeat left center;
+	z-index:20;
+	width:15px;
+	height:16px;
+	left:10px;
+	top:16px;
+}
+.ab-second-input:after{
+	position:absolute;
+	content:"";
+	background:url(../img/ab-em.png) no-repeat left center;
+	z-index:20;
+	width:18px;
+	height:13px;
+	left:10px;
+	top:18px;
+}
+
+/*  Система голосования  */
+.az-center5{
+	margin-top:2px !important;
+	margin-bottom:80px !important;
+}
 .az-center2{
 	margin-top:25px;
 	margin-bottom:31px;
@@ -94,6 +225,62 @@
 	    }
 	    .label1, .label2, .label3, .label4, .label5{
 	    	margin-left:2px;
+	        width: 23px !important;
+	        height: 22px;
+	        display: inline-block;
+	        background: url(../img/az-star-grey-2.png) no-repeat top center;
+	        cursor: pointer;
+	    }
+	    .radio1:checked ~ label,
+	    .radio2:checked ~ label,
+	    .radio3:checked ~ label,
+	    .radio4:checked ~ label,
+	    .radio5:checked ~ label{
+	        background: url(../img/az-star-yellow-2.png) no-repeat top center;
+	    }
+	    .radio1:checked ~ .label1 ~ label,
+	    .radio2:checked ~ .label2 ~ label,
+	    .radio3:checked ~ .label3 ~ label,
+	    .radio4:checked ~ .label4 ~ label,
+	    .radio5:checked ~ .label5 ~ label{
+	        background: url(../img/az-star-grey-2.png) no-repeat top center;
+	    }
+
+	}
+	.az-stars:hover{
+	    label{
+	        background: url(../img/az-star-yellow-2.png) no-repeat top center !important;
+	    }
+	    .label1:hover ~ label,
+	    .label2:hover ~ label,
+	    .label3:hover ~ label,
+	    .label4:hover ~ label,
+	    .label5:hover ~ label{
+	        background: url(../img/az-star-grey-2.png) no-repeat top center !important;
+	    }
+	}
+	span{
+		font-family: "MyriadPro-Regular";
+		font-size: 11px;
+		color: #818487;
+		display: block;
+	}
+}
+
+.az-center3{
+	margin-top:12px;
+	margin-bottom:31px;
+	.az-stars{
+	    display: inline-block;
+	    font-size: 0px;
+	    input[type="radio"]{
+	        display: none;
+	    }
+	    .az-none{
+	        display: none;
+	    }
+	    .label1, .label2, .label3, .label4, .label5{
+	    	margin-left:-10px;
 	        width: 23px !important;
 	        height: 22px;
 	        display: inline-block;
@@ -128,13 +315,9 @@
 	        background: url(../img/az-star-grey.png) no-repeat top center !important;
 	    }
 	}
-	span{
-		font-family: "MyriadPro-Regular";
-		font-size: 11px;
-		color: #818487;
-		display: block;
-	}
 }
+
+
 
 .ab-single-img-1{
 	position:relative;
@@ -450,8 +633,121 @@
 	.second-2{
 		border-bottom:none !important;
 	}
+	.ab-stat{
+		font-family: "PFBeauSansPro-SeBold";
+		font-size: 26px;
+		color:#000000;
+		border-top:2px solid #F3B217;
+		display: inline-block;
+		padding-top:22px;
+		padding-bottom:32px;	
+	}
+	.ab-stat-2{
+		border-top:none;
+		border-bottom:2px solid #F3B217;
+		padding-bottom:15px;
+		margin-bottom: 28px;
+	}
+	.ab-stat-wrap{
+		.ab-stat-box-wrap{
+			.ab-line-pro{
+				display: none;
+				background:url(../img/ab-line-pro.jpg) no-repeat;
+				width: 379px;
+				height: 1px;
+				padding-bottom:19px;
+			}
+			.ab-stat-box{
+				padding-bottom:15px;
+				.ab-stat-box-txt{
+					a:first-child{
+						font-family: "PFBeauSansPro-Reg";
+						font-size: 16px;
+						color:#000000;
+						display: inline-block;
+						padding-bottom:4px;
+					}
+					a:last-child{
+						font-family: "PFBeauSansPro-Reg";
+						font-size: 12px;
+						color:#818487;
+						background:url(../img/ab-metka-1.png) no-repeat;
+						padding-left:21px;
+						display: inline-block;
+					}
+				}
+			}
+		}
+	}
+	.zk_videos-2{
+		border-top:none !important;
+		.zk_video{
+			margin-top: 0 !important;
+		}
+	}
+	.ab-button-head-wrap{
+		.ab-button-head{
+			display: inline-block;
+			width: 220px;
+			height: 44px;
+			border-radius: 6px;
+			background:#E32B45;
+			font-family: "PFBeauSansPro-SeBold";
+			font-size: 14px;
+			color:#fff;
+			text-transform: uppercase;
+			padding: 13px 16px 13px 39px;
+			position:relative;
+		}
+		.ab-button-head:after{
+			position:absolute;
+			content: "";
+			background:url(../img/ab-plusik.png) no-repeat;
+			width: 16px;
+			height: 16px;
+			left: 12px;
+		}
+	}
+	.comments{
+		margin-top: 54px;
+		padding-bottom:10px;
+	}
+	.ab-italic-comments{
+		span{
+			font-family: "MyriadPro-Regular";
+			font-size: 16px;
+			color:#303032;
+			font-style: italic;
+		}
+	}
+	.ab-publish{
+		padding:23px 15px;
+		span{
+			font-family: "PFBeauSansPro-Reg";
+			font-size: 12px;
+			color:#818487;
+			background:url(../img/ab-com-img.png) no-repeat left center;
+			height: 24px;
+			line-height: 24px;
+			padding-left:31px;
+			display: inline-block;
+
+		}
+	}
+	.ab-publish-2{
+		padding:0 15px;
+		margin-top: -28px;
+		padding-bottom:14px;
+	}       
 }
 
+.ab-single-wrap-2{
+	background:#F6F8F9 !important;
+}
+
+.ab-single-wrap-10{
+	padding-top:0 !important;
+}
 
 
 /*============= END single.php ================*/
@@ -556,6 +852,7 @@
 			right: 144px;
 		    top: 8px !important;
 		}
+
 /*============= END single.php ================*/
 
 }
@@ -563,7 +860,38 @@
 @media only screen and (min-width : 992px) {
 
 /*============= single.php ================*/
-
+	
+	.ab-button-head-wrap{
+		.ab-button-head{
+			margin-left: 188px !important;
+		}
+	}
+	
+	.ab-stat-wrap{
+		.ab-stat-box-wrap{
+			.ab-line-pro{
+				display: block !important;
+			}
+			.ab-stat-box{
+				float: left;
+				padding-bottom:15px;
+				width: 377px;
+				img{
+					float: left;
+				}
+				.ab-stat-box-txt{
+					float: left;
+					padding-left:12px;
+					span{
+						padding-bottom:5px !important;
+					}
+				}
+			}
+			.ab-stat-box:last-child{
+				padding-left:16px;
+			}
+		}
+	}
 
 	
 	.ab-a-next:after{
