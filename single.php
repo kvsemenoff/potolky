@@ -243,9 +243,47 @@
 
 							
 								<?php require_once('includes/vozniklivoprosi.php'); ?>
-
+								<h3 class="ab-stat">Похожие статьи</h3>
+								<div class="ab-stat-wrap">
+									<div class="ab-stat-box-wrap">
+										<div class="ab-stat-box">
+											<a href="#"><img src="img/ab-st-1.png" alt=""></a>
+											<div class="ab-stat-box-txt">
+												<a href="#">Поскольку в процессе строительства<br> не всегда </a><br>
+												<a href="#">Реечные потолки</a>
+											</div>
+										</div>
+										<div class="ab-stat-box">
+											<a href="#"><img src="img/ab-st-3.png" alt=""></a>
+											<div class="ab-stat-box-txt">
+												<a href="#">Кожа - необычный и стильный вид<br> отделки потолка</a><br>
+												<a href="#">Реечные потолки</a>
+											</div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+									<div class="ab-stat-box-wrap">
+										<div class="ab-stat-box">
+										<div class="ab-line-pro"></div>
+											<a href="#"><img src="img/ab-st-2.png" alt=""></a>
+											<div class="ab-stat-box-txt">
+												<a href="#">Рисунок на потолке поможет<br> украсить интерьер</a><br>
+												<a href="#">Реечные потолки</a>
+											</div>
+										</div>
+										<div class="ab-stat-box">
+										<div class="ab-line-pro"></div>
+											<a href="#"><img src="img/ab-st-4.png" alt=""></a>
+											<div class="ab-stat-box-txt">
+												<a href="#">Стеклянные полотна перестали<br>считаться неподходящими</a><br>
+												<a href="#">Реечные потолки</a>
+											</div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>	
 								<div class="zk_photos_osn">	
-									<h3 class="second second-2">Видео по теме</h3>
+									<h3 class="ab-stat ab-stat-2">Видео по теме</h3>
 									<div class="zk_videos ">			
 										<div class="col-md-6">
 											<ul class="zk_video">
@@ -260,6 +298,7 @@
 									</div>	
 									<div class="clear"></div>   
 								</div>
+
 							</div>
 						</div>
 					</div>
