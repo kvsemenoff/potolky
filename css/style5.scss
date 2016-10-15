@@ -6,7 +6,7 @@
 @import url(fonts.css);
 
 /*# sourceMappingURL=style5.css.map */
-                    //FOTOGRAFII---------------------------------.PHP
+                    //FOTOGRAFII---------------------------------
 .clear{
     clear:both;
 }
@@ -19,16 +19,18 @@
           padding-bottom: 16px;
           margin-left: 28px;
           border-bottom: 2px solid #f3b217;width:155px;
-          margin-bottom: 25px;
+          
           }
           .second{
             margin-top: 35px;           
-            border-bottom: 2px solid #f3b217;  width: 218px;
+            border-bottom: 2px solid #f3b217;  width: 218px;            
           }    
-        .zk_photos { 
+        .zk_photos {
+            border-top:1px solid #e9e9ee;                                            // background: url(../img/zk_photo_hr.png) repeat-x; 
             width: 100%;
             display: block;
             li.zk_photo {
+                margin-top: 32px;
                 display: block;
                 width: 100%;
                 box-sizing: border-box;
@@ -73,8 +75,10 @@
             }
         }
         .zk_videos{   
-            margin-bottom: 30px;       
-            .zk_video {                            
+            margin-bottom: 30px; 
+            border-top:1px solid #e9e9ee;                  
+            .zk_video {
+                margin-top: 30px;
                 img{
                     width: 100%;
                     background-size: cover;
@@ -103,61 +107,82 @@
 
 
 
-        //VOZNIKLIVOPROSI--------------------------------------.PHP
+        //VOZNIKLIVOPROSI--------------------------------------
 
 
 .banner_vopros{
      font-family: "PFBeauSansPro-SeBold";
-     width:100%;
-    .zk_banner{
-        //width: 50%;        
-        padding:0 8px;
-        margin-bottom: 37px;margin-top: 30px;
-        position: relative;
-    }
+     height:auto;   
+     background: url(../img/zk_bg_vopros.png) repeat;
+     text-align: center;
+     height:195px;
+     margin-bottom: 37px;margin-top: 30px;
+     padding:60px 0;    
+     
+    
     .zk_text{ 
-        position:absolute;
-        top:  80px;             //140px;
-        right: 40px;                //90px;       
+            vertical-align: middle;
          h3{
-            font-size:9px;      //30px;
+            font-size:17px;      
             color:#ffffff;
+            
         }
         p{
-            font-size:5px;        //15px;
+            font-size:10px;                   
             color:#acacae;
             font-family: "PFBeauSansPro-Reg";
+            padding-right: 38px; 
+            margin-bottom: 7px;           
+        }
+        .zk_banner_vop{
+            width:60px;      
+            height: 15px;        
+            font-size: 9px;            
+            color:#ffffff;
+            background: #e32b45;
+            border-radius: 3px;
+            font-weight: bold;
+            text-align: center;
+            padding: 6px 4px;
+            margin-right: 130px;                      
         }
     }
-    .zk_banner_vop{
-        width:50px;      //162px;
-        height: 12px;        //38px;
-        font-size: 4px;            //14px;
-        color:#ffffff;
-        background: #e32b45;
-        border-radius: 3px;
-        font-weight: bold;
-        text-align: center;
-        padding: 3px 0;        //12
-        position: absolute;
-        top:  100px;             //210px;
-        right: 105px;            //297px;
-    }
+    
 }
+                                                //ABOUT US PORTAL______________________________----------------
+
 
 
 .about_us_portal{
-    font-family: "PFBeauSansPro-SeBold";
-    color:#000000;
+    font-family: "PFBeauSansPro-Reg";
+    font-size: 17px;
+    color:#303032;
+    margin:20px 20px;
+    line-height: 1.7em; 
     h3{
         font-family:"PFBeauSansPro-Book";
         font-size:30px;
+        color:#000000;
+        margin-bottom: 20px;
+        
     }
+    .about_us_img{
+         .zk_first{       
+            float:left;
+            margin:10px 0;
+            margin-right: 50px;
+            margin-top: -2px;             
+        }         
+        p{
+            margin-top: 18px;                     
+            b{
+                font-weight: bold;
+                color:black;
+                font-family:"PFBeauSansPro-SeBold";
+            }
+        }
+    }   
 }
-
-
-
-
 
 
 
@@ -172,26 +197,23 @@
             width: 50% !important;
         }
     }
-
-    .zk_text{         
-        top: 98px !important;             //140px;
-        right: 85px !important;                //90px;       
-         h3{
-            font-size:14px !important;     //30px;
-           
+    .banner_vopros{        
+        
+        .zk_text{                
+             h3{
+                font-size: 19.5px;                
+             }
+            p{
+                font-size: 11.5px;           
+             }
+            .zk_banner_vop{
+                font-size: 10px;
+                padding:7px 9px;                     
+                margin-right: 135px;             
+             }
         }
-        p{
-            font-size:7px !important;       //15px;
-        }
-    }
-    .zk_banner_vop{
-        width:70px !important;      //162px;
-        height: 15px !important;        //38px;
-        font-size: 6px !important;            //14px;
-        padding: 4px 0 !important;        //12
-        top:  130px !important;             //210px;
-        right: 188px !important;            //297px;
-    }
+    }     
+    
 }
 
 @media only screen and (min-width : 768px) {
@@ -199,27 +221,8 @@
           width:48% ;
           float:left;
           margin-right:10px;
-          display: block;
-          
-        }
-    .zk_text{         
-        top: 120px !important;             //140px;
-        right: 180px !important;                //90px;       
-             h3{
-                font-size:18px !important;  //30px;
-            }
-            p{
-                font-size:10px !important;       //15px;
-            }
-    }
-    .zk_banner_vop{
-        width:90px !important;      //162px;
-        height: 20px !important;        //38px;
-        font-size: 8px !important;            //14px;
-        padding: 5px 0 !important;        //12
-        top:  165px !important;             //210px;
-        right: 310px !important;            //297px;
-    }
+          display: block;          
+        }   
 }
 
 
@@ -244,44 +247,45 @@
                  }   
             }
     }
+    .banner_vopros{
+        background: url(../img/zk_vopros2.jpg) no-repeat;        
+        height:195px;
+        padding-top:70px;
+        padding-left: 330px;
+        .zk_text{
 
-    .zk_text{         
-        top: 100px !important;             //140px;
-        right: 80px !important;                //90px;       
+                
              h3{
-                font-size:22px !important;  //30px;
-            }
+                font-size: 19px;                
+             }
             p{
-                font-size:12px !important;       //15px;
-            }
-    }
-    .zk_banner_vop{
-        width:115px !important;      //162px;
-        height: 30px !important;        //38px;
-        font-size: 10px !important;            //14px;
-        padding: 10px 0 !important;        //12
-        top:  150px !important;             //210px;
-        right: 235px !important;            //297px;
-    }                 
+                font-size: 11px;           
+             }
+            .zk_banner_vop{
+                font-size: 10px;
+                padding:7px 9px;           
+                margin-right: 127px;                
+             }
+        }
+    }                   
 }
 
-@media only screen and (min-width : 1200px){
-    .zk_text{         
-        top: 130px !important;             //140px;
-        right: 145px !important;                //90px;       
+@media only screen and (min-width : 1200px) {
+    .banner_vopros{        
+        padding-left: 200px;
+        .zk_text{                
              h3{
-                font-size:26px !important;  //30px;
-            }
+                font-size: 21.5px;                
+             }
             p{
-                font-size:13px !important;       //15px;
-            }
-    }
-    .zk_banner_vop{
-        width:145px !important;      //162px;
-        height: 34px !important;        //38px;
-        font-size: 12px !important;            //14px;
-        padding: 10px 0 !important;        //12
-        top:  190px !important;             //210px;
-        right: 320px !important;            //297px;
-    }                 
+                font-size: 13px;           
+             }
+            .zk_banner_vop{
+                font-size: 11px;
+                padding:7px 9px;           
+                margin-right: 153px;                
+             }
+        }
+    }   
 }
+    
