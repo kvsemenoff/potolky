@@ -52,7 +52,126 @@
 
 /*============ END ab-footer =============*/
 /*============= single.php ================*/
+.ab-span-input {
+  padding-bottom: 13px; }
+  .ab-span-input span {
+    font-family: "PFBeauSansPro-Reg";
+    font-size: 15px;
+    color: #000000; }
+
+.ab-podpis {
+  padding-bottom: 24px; }
+  .ab-podpis span {
+    font-family: "PFBeauSansPro-Reg";
+    font-size: 11px;
+    color: #818487; }
+
+.vhod-bottom {
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  margin-bottom: 17px; }
+
+.vhod-bottom-2 {
+  height: 100px; }
+
+.search-box {
+  width: 100%; }
+
+.ab-f {
+  display: block;
+  position: relative;
+  border-radius: 3px;
+  width: 100%;
+  height: 51px;
+  border: 1px solid #cbd1d6;
+  box-sizing: border-box; }
+
+form {
+  display: block;
+  border-radius: 3px;
+  width: 100%;
+  border: 1px solid #cbd1d6;
+  box-sizing: border-box; }
+
+input[type="text"] {
+  width: 100%;
+  height: 49px;
+  line-height: 49px;
+  padding: 0px 34px;
+  border: none;
+  box-sizing: border-box;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  font-size: 14px;
+  color: #97a3ad;
+  max-height: 100%;
+  max-width: 100%;
+  font-family: "OpenSans-Semibold";
+  outline: none !important;
+  letter-spacing: .02em; }
+
+.ab-ff {
+  width: 100%;
+  height: 97px;
+  overflow: hidden;
+  padding: 5px 15px;
+  border: none;
+  box-sizing: border-box;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  font-size: 14px;
+  color: #97a3ad;
+  font-family: "OpenSans-Semibold";
+  outline: none !important;
+  letter-spacing: .02em;
+  margin-bottom: 20px;
+  resize: none; }
+
+.ab-span-input-2 span:last-child {
+  font-size: 11px;
+  font-family: "PFBeauSansPro-Reg";
+  color: #818487;
+  padding-left: 15px; }
+
+.ab-first-input {
+  display: inline-block;
+  position: relative;
+  z-index: 10; }
+  .ab-first-input input {
+    font-size: 17px;
+    font-family: "PFBeauSansPro-Reg"; }
+
+.ab-first-input:after {
+  position: absolute;
+  content: "";
+  background: url(../img/ab-chel.png) no-repeat left center;
+  z-index: 20;
+  width: 15px;
+  height: 16px;
+  left: 10px;
+  top: 16px; }
+
+.ab-second-input:after {
+  position: absolute;
+  content: "";
+  background: url(../img/ab-em.png) no-repeat left center;
+  z-index: 20;
+  width: 18px;
+  height: 13px;
+  left: 10px;
+  top: 18px; }
+
 /*  ╨б╨╕╤Б╤В╨╡╨╝╨░ ╨│╨╛╨╗╨╛╤Б╨╛╨▓╨░╨╜╨╕╤П  */
+.az-center5 {
+  margin-top: 2px !important;
+  margin-bottom: 80px !important; }
+
 .az-center2 {
   margin-top: 25px;
   margin-bottom: 31px; }
@@ -68,28 +187,28 @@
       width: 23px !important;
       height: 22px;
       display: inline-block;
-      background: url(../img/az-star-grey.png) no-repeat top center;
+      background: url(../img/az-star-grey-2.png) no-repeat top center;
       cursor: pointer; }
     .az-center2 .az-stars .radio1:checked ~ label,
     .az-center2 .az-stars .radio2:checked ~ label,
     .az-center2 .az-stars .radio3:checked ~ label,
     .az-center2 .az-stars .radio4:checked ~ label,
     .az-center2 .az-stars .radio5:checked ~ label {
-      background: url(../img/az-star-yellow.png) no-repeat top center; }
+      background: url(../img/az-star-yellow-2.png) no-repeat top center; }
     .az-center2 .az-stars .radio1:checked ~ .label1 ~ label,
     .az-center2 .az-stars .radio2:checked ~ .label2 ~ label,
     .az-center2 .az-stars .radio3:checked ~ .label3 ~ label,
     .az-center2 .az-stars .radio4:checked ~ .label4 ~ label,
     .az-center2 .az-stars .radio5:checked ~ .label5 ~ label {
-      background: url(../img/az-star-grey.png) no-repeat top center; }
+      background: url(../img/az-star-grey-2.png) no-repeat top center; }
   .az-center2 .az-stars:hover label {
-    background: url(../img/az-star-yellow.png) no-repeat top center !important; }
+    background: url(../img/az-star-yellow-2.png) no-repeat top center !important; }
   .az-center2 .az-stars:hover .label1:hover ~ label,
   .az-center2 .az-stars:hover .label2:hover ~ label,
   .az-center2 .az-stars:hover .label3:hover ~ label,
   .az-center2 .az-stars:hover .label4:hover ~ label,
   .az-center2 .az-stars:hover .label5:hover ~ label {
-    background: url(../img/az-star-grey.png) no-repeat top center !important; }
+    background: url(../img/az-star-grey-2.png) no-repeat top center !important; }
   .az-center2 span {
     font-family: "MyriadPro-Regular";
     font-size: 11px;
@@ -97,7 +216,7 @@
     display: block; }
 
 .az-center3 {
-  margin-top: 25px;
+  margin-top: 12px;
   margin-bottom: 31px; }
   .az-center3 .az-stars {
     display: inline-block;
@@ -107,37 +226,32 @@
     .az-center3 .az-stars .az-none {
       display: none; }
     .az-center3 .az-stars .label1, .az-center3 .az-stars .label2, .az-center3 .az-stars .label3, .az-center3 .az-stars .label4, .az-center3 .az-stars .label5 {
-      margin-left: 2px;
+      margin-left: -10px;
       width: 23px !important;
       height: 22px;
       display: inline-block;
-      background: url(../img/ab-zv-grey.png) no-repeat top center;
+      background: url(../img/az-star-grey.png) no-repeat top center;
       cursor: pointer; }
     .az-center3 .az-stars .radio1:checked ~ label,
     .az-center3 .az-stars .radio2:checked ~ label,
     .az-center3 .az-stars .radio3:checked ~ label,
     .az-center3 .az-stars .radio4:checked ~ label,
     .az-center3 .az-stars .radio5:checked ~ label {
-      background: url(../img/ab-zv-yellow.png) no-repeat top center; }
+      background: url(../img/az-star-yellow.png) no-repeat top center; }
     .az-center3 .az-stars .radio1:checked ~ .label1 ~ label,
     .az-center3 .az-stars .radio2:checked ~ .label2 ~ label,
     .az-center3 .az-stars .radio3:checked ~ .label3 ~ label,
     .az-center3 .az-stars .radio4:checked ~ .label4 ~ label,
     .az-center3 .az-stars .radio5:checked ~ .label5 ~ label {
-      background: url(../img/ab-zv-grey.png) no-repeat top center; }
+      background: url(../img/az-star-grey.png) no-repeat top center; }
   .az-center3 .az-stars:hover label {
-    background: url(../img/ab-zv-yellow.png) no-repeat top center !important; }
+    background: url(../img/az-star-yellow.png) no-repeat top center !important; }
   .az-center3 .az-stars:hover .label1:hover ~ label,
   .az-center3 .az-stars:hover .label2:hover ~ label,
   .az-center3 .az-stars:hover .label3:hover ~ label,
   .az-center3 .az-stars:hover .label4:hover ~ label,
   .az-center3 .az-stars:hover .label5:hover ~ label {
-    background: url(../img/ab-zv-grey.png) no-repeat top center !important; }
-  .az-center3 span {
-    font-family: "MyriadPro-Regular";
-    font-size: 11px;
-    color: #818487;
-    display: block; }
+    background: url(../img/az-star-grey.png) no-repeat top center !important; }
 
 .ab-single-img-1 {
   position: relative;
@@ -447,9 +561,16 @@
       line-height: 24px;
       padding-left: 31px;
       display: inline-block; }
+  .ab-single-wrap .ab-publish-2 {
+    padding: 0 15px;
+    margin-top: -28px;
+    padding-bottom: 14px; }
 
 .ab-single-wrap-2 {
   background: #F6F8F9 !important; }
+
+.ab-single-wrap-10 {
+  padding-top: 0 !important; }
 
 /*============= END single.php ================*/
 /*========= Mobile First Method =======*/
