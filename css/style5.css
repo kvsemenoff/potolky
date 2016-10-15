@@ -14,13 +14,14 @@
   padding-bottom: 16px;
   margin-left: 28px;
   border-bottom: 2px solid #f3b217;
-  width: 155px;
-  margin-bottom: 25px; }
+  width: 155px; }
 .zk_photos_osn .second {
   margin-top: 35px;
   border-bottom: 2px solid #f3b217;
   width: 218px; }
 .zk_photos_osn .zk_photos {
+  border-top: 1px solid #e9e9ee;
+  padding-top: 30px;
   width: 100%;
   display: block; }
   .zk_photos_osn .zk_photos li.zk_photo {
@@ -60,7 +61,9 @@
     left: 50%;
     transform: translate(-50%, 0); }
 .zk_photos_osn .zk_videos {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  border-top: 1px solid #e9e9ee;
+  padding-top: 30px; }
   .zk_photos_osn .zk_videos .zk_video img {
     width: 100%;
     background-size: cover; }
@@ -82,86 +85,78 @@
 
 .banner_vopros {
   font-family: "PFBeauSansPro-SeBold";
-  width: 100%; }
-  .banner_vopros .zk_banner {
-    padding: 0 8px;
-    margin-bottom: 37px;
-    margin-top: 30px;
-    position: relative; }
+  height: auto;
+  background: url(../img/zk_bg_vopros.png) repeat;
+  text-align: center;
+  height: 195px;
+  margin-bottom: 37px;
+  margin-top: 30px;
+  padding: 60px 0; }
   .banner_vopros .zk_text {
-    position: absolute;
-    top: 80px;
-    right: 40px; }
+    vertical-align: middle; }
     .banner_vopros .zk_text h3 {
-      font-size: 9px;
+      font-size: 17px;
       color: #ffffff; }
     .banner_vopros .zk_text p {
-      font-size: 5px;
+      font-size: 10px;
       color: #acacae;
-      font-family: "PFBeauSansPro-Reg"; }
-  .banner_vopros .zk_banner_vop {
-    width: 50px;
-    height: 12px;
-    font-size: 4px;
-    color: #ffffff;
-    background: #e32b45;
-    border-radius: 3px;
-    font-weight: bold;
-    text-align: center;
-    padding: 3px 0;
-    position: absolute;
-    top: 100px;
-    right: 105px; }
+      font-family: "PFBeauSansPro-Reg";
+      padding-right: 38px;
+      margin-bottom: 7px; }
+    .banner_vopros .zk_text .zk_banner_vop {
+      width: 60px;
+      height: 15px;
+      font-size: 9px;
+      color: #ffffff;
+      background: #e32b45;
+      border-radius: 3px;
+      font-weight: bold;
+      text-align: center;
+      padding: 6px 4px;
+      margin-right: 130px; }
 
 .about_us_portal {
-  font-family: "PFBeauSansPro-SeBold";
-  color: #000000; }
+  font-family: "PFBeauSansPro-Reg";
+  font-size: 17px;
+  color: #303032;
+  margin: 20px 20px;
+  line-height: 1.7em; }
   .about_us_portal h3 {
     font-family: "PFBeauSansPro-Book";
-    font-size: 30px; }
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 20px; }
+  .about_us_portal .about_us_img .zk_first {
+    float: left;
+    margin: 10px 0;
+    margin-right: 50px;
+    margin-top: -2px; }
+  .about_us_portal .about_us_img p {
+    margin-top: 18px; }
+    .about_us_portal .about_us_img p b {
+      font-weight: bold;
+      color: black;
+      font-family: "PFBeauSansPro-SeBold"; }
 
 @media only screen and (min-width: 480px) {
   .zk_photos li.zk_photo {
     float: left;
     width: 50% !important; }
 
-  .zk_text {
-    top: 98px !important;
-    right: 85px !important; }
-    .zk_text h3 {
-      font-size: 14px !important; }
-    .zk_text p {
-      font-size: 7px !important; }
-
-  .zk_banner_vop {
-    width: 70px !important;
-    height: 15px !important;
-    font-size: 6px !important;
-    padding: 4px 0 !important;
-    top: 130px !important;
-    right: 188px !important; } }
+  .banner_vopros .zk_text h3 {
+    font-size: 19.5px; }
+  .banner_vopros .zk_text p {
+    font-size: 11.5px; }
+  .banner_vopros .zk_text .zk_banner_vop {
+    font-size: 10px;
+    padding: 7px 9px;
+    margin-right: 135px; } }
 @media only screen and (min-width: 768px) {
   .zk_video li {
     width: 48%;
     float: left;
     margin-right: 10px;
-    display: block; }
-
-  .zk_text {
-    top: 120px !important;
-    right: 180px !important; }
-    .zk_text h3 {
-      font-size: 18px !important; }
-    .zk_text p {
-      font-size: 10px !important; }
-
-  .zk_banner_vop {
-    width: 90px !important;
-    height: 20px !important;
-    font-size: 8px !important;
-    padding: 5px 0 !important;
-    top: 165px !important;
-    right: 310px !important; } }
+    display: block; } }
 @media only screen and (min-width: 992px) {
   .zk_photos li.zk_photo {
     max-height: 130px;
@@ -177,36 +172,29 @@
       width: 100%;
       clear: both; }
 
-  .zk_text {
-    top: 100px !important;
-    right: 80px !important; }
-    .zk_text h3 {
-      font-size: 22px !important; }
-    .zk_text p {
-      font-size: 12px !important; }
-
-  .zk_banner_vop {
-    width: 115px !important;
-    height: 30px !important;
-    font-size: 10px !important;
-    padding: 10px 0 !important;
-    top: 150px !important;
-    right: 235px !important; } }
+  .banner_vopros {
+    background: url(../img/zk_vopros2.jpg) no-repeat;
+    height: 195px;
+    padding-top: 70px;
+    padding-left: 330px; }
+    .banner_vopros .zk_text h3 {
+      font-size: 19px; }
+    .banner_vopros .zk_text p {
+      font-size: 11px; }
+    .banner_vopros .zk_text .zk_banner_vop {
+      font-size: 10px;
+      padding: 7px 9px;
+      margin-right: 127px; } }
 @media only screen and (min-width: 1200px) {
-  .zk_text {
-    top: 130px !important;
-    right: 145px !important; }
-    .zk_text h3 {
-      font-size: 26px !important; }
-    .zk_text p {
-      font-size: 13px !important; }
-
-  .zk_banner_vop {
-    width: 145px !important;
-    height: 34px !important;
-    font-size: 12px !important;
-    padding: 10px 0 !important;
-    top: 190px !important;
-    right: 320px !important; } }
+  .banner_vopros {
+    padding-left: 200px; }
+    .banner_vopros .zk_text h3 {
+      font-size: 21.5px; }
+    .banner_vopros .zk_text p {
+      font-size: 13px; }
+    .banner_vopros .zk_text .zk_banner_vop {
+      font-size: 11px;
+      padding: 7px 9px;
+      margin-right: 153px; } }
 
 /*# sourceMappingURL=style5.css.map */
