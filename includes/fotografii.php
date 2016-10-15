@@ -11,19 +11,20 @@
 
 		</ul>
 		<div class="clear"></div>
-		
 	<h3 class="second">Видеоматериалы</h3>
-		<div class="zk_videos ">			
-			<div class="col-md-6">
+		<div class="zk_videos">			
+			<div class="float_left">
 				<ul class="zk_video">
 					<li><a href="#"  ><img src="../img/video1.png" alt=""></a></li>
 				</ul>
 			</div>
-			<div class="col-md-6">
+			<div class="float_right">
 				<ul class="zk_video">
 					<li><a href="#" class="zk_video"><img src="../img/video2.png" alt=""></a></li>
 				</ul>	
 			</div>
-		</div>	
+			<div class="clear"></div>
+		</div>
+			
 		<div class="clear"></div>   
 </div>		   
