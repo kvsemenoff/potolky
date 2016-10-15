@@ -19,16 +19,18 @@
           padding-bottom: 16px;
           margin-left: 28px;
           border-bottom: 2px solid #f3b217;width:155px;
-          margin-bottom: 25px;
+          
           }
           .second{
             margin-top: 35px;           
-            border-bottom: 2px solid #f3b217;  width: 218px;
+            border-bottom: 2px solid #f3b217;  width: 218px;            
           }    
-        .zk_photos { 
+        .zk_photos {
+            border-top:1px solid #e9e9ee;                                            // background: url(../img/zk_photo_hr.png) repeat-x; 
             width: 100%;
             display: block;
             li.zk_photo {
+                margin-top: 32px;
                 display: block;
                 width: 100%;
                 box-sizing: border-box;
@@ -73,8 +75,10 @@
             }
         }
         .zk_videos{   
-            margin-bottom: 30px;       
-            .zk_video {                            
+            margin-bottom: 30px; 
+            border-top:1px solid #e9e9ee;                  
+            .zk_video {
+                margin-top: 30px;
                 img{
                     width: 100%;
                     background-size: cover;
@@ -153,29 +157,32 @@
     font-family: "PFBeauSansPro-Reg";
     font-size: 17px;
     color:#303032;
+    margin:20px 20px;
+    line-height: 1.7em; 
     h3{
         font-family:"PFBeauSansPro-Book";
         font-size:30px;
         color:#000000;
+        margin-bottom: 20px;
+        
     }
     .about_us_img{
-         img{       
+         .zk_first{       
             float:left;
-            margin:20px 0;
-              
+            margin:10px 0;
+            margin-right: 50px;
+            margin-top: -2px;             
         }         
-        span{
-            
-            margin:20px 0;
+        p{
+            margin-top: 18px;                     
+            b{
+                font-weight: bold;
+                color:black;
+                font-family:"PFBeauSansPro-SeBold";
+            }
         }
     }   
-
-
 }
-
-
-
-
 
 
 

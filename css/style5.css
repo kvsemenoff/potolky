@@ -14,16 +14,17 @@
   padding-bottom: 16px;
   margin-left: 28px;
   border-bottom: 2px solid #f3b217;
-  width: 155px;
-  margin-bottom: 25px; }
+  width: 155px; }
 .zk_photos_osn .second {
   margin-top: 35px;
   border-bottom: 2px solid #f3b217;
   width: 218px; }
 .zk_photos_osn .zk_photos {
+  border-top: 1px solid #e9e9ee;
   width: 100%;
   display: block; }
   .zk_photos_osn .zk_photos li.zk_photo {
+    margin-top: 32px;
     display: block;
     width: 100%;
     box-sizing: border-box; }
@@ -60,25 +61,28 @@
     left: 50%;
     transform: translate(-50%, 0); }
 .zk_photos_osn .zk_videos {
-  margin-bottom: 30px; }
-  .zk_photos_osn .zk_videos .zk_video img {
-    width: 100%;
-    background-size: cover; }
-  .zk_photos_osn .zk_videos .zk_video li a {
-    display: inline-block;
-    position: relative;
-    z-index: 9; }
-  .zk_photos_osn .zk_videos .zk_video li a:hover:after {
-    content: "";
-    position: absolute;
-    width: 51px;
-    height: 60px;
-    left: 50%;
-    top: 40%;
-    background: url(../img/video_hover.png) no-repeat left center;
-    z-index: 10;
-    left: 50%;
-    transform: translate(-50%, 0); }
+  margin-bottom: 30px;
+  border-top: 1px solid #e9e9ee; }
+  .zk_photos_osn .zk_videos .zk_video {
+    margin-top: 30px; }
+    .zk_photos_osn .zk_videos .zk_video img {
+      width: 100%;
+      background-size: cover; }
+    .zk_photos_osn .zk_videos .zk_video li a {
+      display: inline-block;
+      position: relative;
+      z-index: 9; }
+    .zk_photos_osn .zk_videos .zk_video li a:hover:after {
+      content: "";
+      position: absolute;
+      width: 51px;
+      height: 60px;
+      left: 50%;
+      top: 40%;
+      background: url(../img/video_hover.png) no-repeat left center;
+      z-index: 10;
+      left: 50%;
+      transform: translate(-50%, 0); }
 
 .banner_vopros {
   font-family: "PFBeauSansPro-SeBold";
@@ -115,16 +119,25 @@
 .about_us_portal {
   font-family: "PFBeauSansPro-Reg";
   font-size: 17px;
-  color: #303032; }
+  color: #303032;
+  margin: 20px 20px;
+  line-height: 1.7em; }
   .about_us_portal h3 {
     font-family: "PFBeauSansPro-Book";
     font-size: 30px;
-    color: #000000; }
-  .about_us_portal .about_us_img img {
+    color: #000000;
+    margin-bottom: 20px; }
+  .about_us_portal .about_us_img .zk_first {
     float: left;
-    margin: 20px 0; }
-  .about_us_portal .about_us_img span {
-    margin: 20px 0; }
+    margin: 10px 0;
+    margin-right: 50px;
+    margin-top: -2px; }
+  .about_us_portal .about_us_img p {
+    margin-top: 18px; }
+    .about_us_portal .about_us_img p b {
+      font-weight: bold;
+      color: black;
+      font-family: "PFBeauSansPro-SeBold"; }
 
 @media only screen and (min-width: 480px) {
   .zk_photos li.zk_photo {
