@@ -43,14 +43,14 @@
 				<div class="col-md-8 col-lg-9">
 					<div class="az-content-left">
 						<div class="az-border">
-							<?php require_once('includes/uslugi.php'); ?>
+							<?php require_once('includes/compani.php'); ?>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4 col-lg-3">
 					<div class="az-content-right">
 						<div class="az-border">
-							<?php require_once('includes/sidebar.php'); ?>
+							<?php require_once('includes/sidebar2.php'); ?>
 						</div>
 					</div>
 				</div>
@@ -69,4 +69,3 @@
 	});
 </script>
 </html>
-

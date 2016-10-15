@@ -738,6 +738,94 @@ body, html {
   display: block; }
 
 /*uslugi*/
+/*select*/
+.az-select {
+  border: 1px solid #d1d6d9;
+  position: relative;
+  cursor: pointer;
+  background: #fff;
+  z-index: 2; }
+  .az-select select {
+    height: 40px;
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 0 15px;
+    font-family: "PFBeauSansPro-Reg";
+    font-size: 14px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    z-index: 2; }
+  .az-select select::-ms-expand {
+    display: none; }
+
+.az-select:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 15px;
+  width: 13px;
+  height: 7px;
+  background: url(../img/select-arrow.png) no-repeat top left;
+  z-index: 1; }
+
+.az-select-focus:before {
+  background: url(../img/select-arrow-focus.png) no-repeat top left; }
+
+.az-select_style {
+  position: relative;
+  z-index: 2; }
+
+.az-col5 {
+  width: 100%;
+  padding: 0 15px; }
+
+.az-col6 {
+  width: 100%;
+  padding: 0 15px; }
+
+.az-col7 {
+  width: 100%;
+  padding: 0 15px; }
+
+.az-input {
+  height: 40px;
+  width: 100%;
+  border: 1px solid #d1d6d9;
+  padding: 0 15px;
+  font-family: "PFBeauSansPro-Reg";
+  font-size: 14px; }
+
+.az-search {
+  background: #f3b217;
+  color: #fff;
+  height: 40px;
+  text-align: center;
+  display: block;
+  min-width: 100px;
+  max-width: 150px;
+  width: 100%;
+  line-height: 40px;
+  font-size: 14px;
+  font-family: "PFBeauSansPro-Bold";
+  margin: 0 auto;
+  border-radius: 2px; }
+
+.az-filter {
+  width: 100%;
+  background: #f5f7f8;
+  padding: 1px 1px 10px 1px; }
+
+/*select*/
+/*map*/
+#az-map {
+  width: 100%;
+  height: 570px; }
+
 /*margins*/
 .az-margin-top--20px {
   position: relative;
@@ -786,6 +874,11 @@ body, html {
   margin: 0px 6px 0px 4px; }
 
 @media only screen and (min-width: 480px) {
+  .az-filter {
+    width: 100%;
+    background: #f5f7f8;
+    padding: 1px 1px 20px 16px; }
+
   .az-uslugi-content {
     padding: 0px 30px; }
 
@@ -828,6 +921,21 @@ body, html {
     padding-left: 28px;
     padding-right: 28px; } }
 @media only screen and (min-width: 768px) {
+  .az-col5 {
+    width: 27%;
+    padding: 0 5px;
+    float: left; }
+
+  .az-col6 {
+    width: 25%;
+    padding: 0 5px;
+    float: left; }
+
+  .az-col7 {
+    width: 21%;
+    padding: 0 5px;
+    float: left; }
+
   .az-row {
     padding-left: 10px; }
     .az-row > div:first-child {
