@@ -26,11 +26,12 @@
             border-bottom: 2px solid #f3b217;  width: 218px;            
           }    
         .zk_photos {
-            border-top:1px solid #e9e9ee;                                            // background: url(../img/zk_photo_hr.png) repeat-x; 
+            border-top:1px solid #e9e9ee;
+            padding-top: 30px;                                            // background: url(../img/zk_photo_hr.png) repeat-x; 
             width: 100%;
             display: block;
             li.zk_photo {
-                margin-top: 32px;
+                
                 display: block;
                 width: 100%;
                 box-sizing: border-box;
@@ -76,9 +77,10 @@
         }
         .zk_videos{   
             margin-bottom: 30px; 
-            border-top:1px solid #e9e9ee;                  
+            border-top:1px solid #e9e9ee;
+            padding-top: 30px;                  
             .zk_video {
-                margin-top: 30px;
+                
                 img{
                     width: 100%;
                     background-size: cover;

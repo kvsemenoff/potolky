@@ -240,8 +240,6 @@
 									<span>Поделиться с друзьями или сохранить ссылку</span>
 									<img class="img-responsive" src="img/ab-soc.png" alt="">
 								</div><br>
-
-							
 								<?php require_once('includes/vozniklivoprosi.php'); ?>
 								<h3 class="ab-stat">Похожие статьи</h3>
 								<div class="ab-stat-wrap">
@@ -284,7 +282,7 @@
 								</div>	
 								<div class="zk_photos_osn">	
 									<h3 class="ab-stat ab-stat-2">Видео по теме</h3>
-									<div class="zk_videos ">			
+									<div class="zk_videos zk_videos-2 ">			
 										<div class="col-md-6">
 											<ul class="zk_video">
 												<li><a href="#"  ><img src="../img/video1.png" alt=""></a></li>
@@ -296,9 +294,42 @@
 											</ul>	
 										</div>
 									</div>	
-									<div class="clear"></div>   
+									<div class="clearfix"></div>   
 								</div>
+								<?php require_once('includes/tovari-single.php'); ?>
+								<h3 class="ab-stat comments">Комментарии</h3>
+								<div class="ab-italic-comments">
+									<span>Комментариев пока к сожалению нет, но вы могли бы быть первым ...</span>
+								</div>
+								<div class="ab-publish">
+									<span>Александр Опубликовано 20.01.2016</span>
+								</div>
+							</div>
+							<div class="ab-single-wrap ab-single-wrap-2">
+								<div class="ab-single-txt">
+									<span>
+										Никакого жесткого крепления у них нет. Как же клеить потолочный плинтус? Никак. Этого делать нельзя. И на то есть несколько причин. 
+									</span>
 
+								</div>
+								<div class="az-center3">
+									<div class="az-stars">
+										<input type="radio" name="radio1" id="a0" class="radio0">
+										<input type="radio" name="radio1" id="a1" class="radio1">
+										<input type="radio" name="radio1" id="a2" class="radio2">
+										<input type="radio" name="radio1" id="a3" class="radio3">
+										<input type="radio" name="radio1" id="a4" class="radio4">
+										<input type="radio" name="radio1" id="a5" class="radio5">
+										<label for="a0" class="az-none"></label>
+										<label for="a1" class="label1"></label>
+										<label for="a2" class="label2"></label>
+										<label for="a3" class="label3"></label>
+										<label for="a4" class="label4"></label>
+										<label for="a5" class="label5"></label>
+									</div>
+	
+									<div class="clearfix"></div>
+								</div>
 							</div>
 						</div>
 					</div>

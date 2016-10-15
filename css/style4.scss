@@ -136,6 +136,62 @@
 	}
 }
 
+.az-center3{
+	margin-top:25px;
+	margin-bottom:31px;
+	.az-stars{
+	    display: inline-block;
+	    font-size: 0px;
+	    input[type="radio"]{
+	        display: none;
+	    }
+	    .az-none{
+	        display: none;
+	    }
+	    .label1, .label2, .label3, .label4, .label5{
+	    	margin-left:2px;
+	        width: 23px !important;
+	        height: 22px;
+	        display: inline-block;
+	        background: url(../img/ab-zv-grey.png) no-repeat top center;
+	        cursor: pointer;
+	    }
+	    .radio1:checked ~ label,
+	    .radio2:checked ~ label,
+	    .radio3:checked ~ label,
+	    .radio4:checked ~ label,
+	    .radio5:checked ~ label{
+	        background: url(../img/ab-zv-yellow.png) no-repeat top center;
+	    }
+	    .radio1:checked ~ .label1 ~ label,
+	    .radio2:checked ~ .label2 ~ label,
+	    .radio3:checked ~ .label3 ~ label,
+	    .radio4:checked ~ .label4 ~ label,
+	    .radio5:checked ~ .label5 ~ label{
+	        background: url(../img/ab-zv-grey.png) no-repeat top center;
+	    }
+
+	}
+	.az-stars:hover{
+	    label{
+	        background: url(../img/ab-zv-yellow.png) no-repeat top center !important;
+	    }
+	    .label1:hover ~ label,
+	    .label2:hover ~ label,
+	    .label3:hover ~ label,
+	    .label4:hover ~ label,
+	    .label5:hover ~ label{
+	        background: url(../img/ab-zv-grey.png) no-repeat top center !important;
+	    }
+	}
+	span{
+		font-family: "MyriadPro-Regular";
+		font-size: 11px;
+		color: #818487;
+		display: block;
+	}
+}
+
 .ab-single-img-1{
 	position:relative;
 	max-width:831px;
@@ -496,7 +552,66 @@
 			}
 		}
 	}
+	.zk_videos-2{
+		border-top:none !important;
+		.zk_video{
+			margin-top: 0 !important;
+		}
+	}
+	.ab-button-head-wrap{
+		.ab-button-head{
+			display: inline-block;
+			width: 220px;
+			height: 44px;
+			border-radius: 6px;
+			background:#E32B45;
+			font-family: "PFBeauSansPro-SeBold";
+			font-size: 14px;
+			color:#fff;
+			text-transform: uppercase;
+			padding: 13px 16px 13px 39px;
+			position:relative;
+		}
+		.ab-button-head:after{
+			position:absolute;
+			content: "";
+			background:url(../img/ab-plusik.png) no-repeat;
+			width: 16px;
+			height: 16px;
+			left: 12px;
+		}
+	}
+	.comments{
+		margin-top: 54px;
+		padding-bottom:10px;
+	}
+	.ab-italic-comments{
+		span{
+			font-family: "MyriadPro-Regular";
+			font-size: 16px;
+			color:#303032;
+			font-style: italic;
+		}
+	}
+	.ab-publish{
+		padding:23px 15px;
+		span{
+			font-family: "PFBeauSansPro-Reg";
+			font-size: 12px;
+			color:#818487;
+			background:url(../img/ab-com-img.png) no-repeat left center;
+			height: 24px;
+			line-height: 24px;
+			padding-left:31px;
+			display: inline-block;
+
+		}
+	}
 }
+
+.ab-single-wrap-2{
+		background:#F6F8F9 !important;
+	}
 
 
 
@@ -610,6 +725,12 @@
 @media only screen and (min-width : 992px) {
 
 /*============= single.php ================*/
+	
+	.ab-button-head-wrap{
+		.ab-button-head{
+			margin-left: 188px !important;
+		}
+	}
 	
 	.ab-stat-wrap{
 		.ab-stat-box-wrap{
