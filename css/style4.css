@@ -60,7 +60,7 @@
     color: #000000; }
 
 .ab-podpis {
-  padding-bottom: 12px; }
+  padding-bottom: 24px; }
   .ab-podpis span {
     font-family: "PFBeauSansPro-Reg";
     font-size: 11px;
@@ -143,6 +143,9 @@ input[type="text"] {
   display: inline-block;
   position: relative;
   z-index: 10; }
+  .ab-first-input input {
+    font-size: 17px;
+    font-family: "PFBeauSansPro-Reg"; }
 
 .ab-first-input:after {
   position: absolute;
