@@ -716,11 +716,13 @@ body, html {
 
 .az-kras-left {
   float: left;
-  width: 45%; }
+  width: 45%;
+  max-width: 100px; }
 
 .az-kras-right {
   float: left;
-  width: 55px;
+  width: 55%;
+  min-width: calc(100% - 100px);
   padding-left: 17px; }
 
 .az-kras-right1 {
@@ -826,21 +828,25 @@ body, html {
     padding-left: 28px;
     padding-right: 28px; } }
 @media only screen and (min-width: 768px) {
-  .az-row > div:first-child {
-    float: left;
-    width: 30%;
-    padding: 20px;
-    min-height: 142px; }
-  .az-row > div:nth-child(2) {
-    width: 55%;
-    float: left;
-    padding: 20px;
-    min-height: 142px; }
-  .az-row > div:nth-child(3) {
-    width: 15%;
-    float: left;
-    padding: 20px;
-    min-height: 142px; }
+  .az-row {
+    padding-left: 10px; }
+    .az-row > div:first-child {
+      float: left;
+      width: 30%;
+      padding: 20px 0 20px 20px;
+      min-height: 142px;
+      border-right: 1px solid #f1f1f1; }
+    .az-row > div:nth-child(2) {
+      width: 55%;
+      float: left;
+      padding: 20px 0 20px 20px;
+      min-height: 142px;
+      border-right: 1px solid #f1f1f1; }
+    .az-row > div:nth-child(3) {
+      width: 15%;
+      float: left;
+      padding: 20px 0 20px 20px;
+      min-height: 142px; }
 
   .az-row-head {
     width: 100%;

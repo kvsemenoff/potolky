@@ -92,7 +92,7 @@
 		<div class="az-th3">Цены</div>
 		<div class="clearfix"></div>
 	</div>
-	<div class="az-row">
+	<div class="az-row az-zapis-border az-zapis-border_style">
 		<div>
 			<div class="az-kras-item">
 				<div class="az-kras-left">
@@ -102,8 +102,9 @@
 				</div>
 				<div class="az-kras-right">
 					<span class="az-kras-right1">Потолочная краска для дерева</span>
-					<span class="az-kras-right2">Бежевый</span>
+					<span class="az-kras-right2 az-margin-top10">Бежевый</span>
 				</div>
+				<div class="clearfix"></div>
 			</div>
 		</div>
 		<div>
@@ -130,6 +131,211 @@
 			</div>
 		</div>
 		<div class="az-tovar-price2"><strong>200-290</strong>р</div>
-		<div class="clearfix"></div>
+		<i class="clearfix"></i>
+	</div>
+	<div class="az-row az-zapis-border az-zapis-border_style">
+		<div>
+			<div class="az-kras-item">
+				<div class="az-kras-left">
+					<div class="az-img-box2 az-img-box2_style4 az-img-box2_style3">
+						<img src="img/az-kras1.jpg" alt="">
+					</div>
+				</div>
+				<div class="az-kras-right">
+					<span class="az-kras-right1">Потолочная краска для дерева</span>
+					<span class="az-kras-right2 az-margin-top10">Бежевый</span>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div>
+			<div class="az-firm-item az-firm-item_style">
+				<div class="az-firm-left">
+					<div class="az-img-box2 az-img-box2_style2 az-img-box2_style3">
+						<img src="img/comp1.jpg" alt="">
+					</div>
+				</div>
+				<div class="az-firm-right">
+					<span class="az-firm-right1 az-margin-top8 az-xs-margin-top0">Потолок Эверест</span>
+					<span class="az-firm-right2 az-margin-top8">
+						<span class="az-star-yellow2">&nbsp;</span>
+						<span class="az-star-yellow2">&nbsp;</span>
+						<span class="az-star-yellow2">&nbsp;</span>
+						<span class="az-star-grey2">&nbsp;</span>
+						<span class="az-star-grey2">&nbsp;</span>
+						<span class="az-firm-right2-inner">Средняя оценка 4.0</span>
+					</span>
+					<span class="az-firm-right3 az-margin-top8">Москва ул. Савельево 230 офис 32</span>
+					<span class="az-firm-right4 az-margin-top8">8 800 900-30-40</span>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="az-tovar-price2"><strong>200-290</strong>р</div>
+		<i class="clearfix"></i>
+	</div>
+	<div class="az-row az-zapis-border az-zapis-border_style">
+		<div>
+			<div class="az-kras-item">
+				<div class="az-kras-left">
+					<div class="az-img-box2 az-img-box2_style4 az-img-box2_style3">
+						<img src="img/az-kras1.jpg" alt="">
+					</div>
+				</div>
+				<div class="az-kras-right">
+					<span class="az-kras-right1">Потолочная краска для дерева</span>
+					<span class="az-kras-right2 az-margin-top10">Бежевый</span>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div>
+			<div class="az-firm-item az-firm-item_style">
+				<div class="az-firm-left">
+					<div class="az-img-box2 az-img-box2_style2 az-img-box2_style3">
+						<img src="img/comp1.jpg" alt="">
+					</div>
+				</div>
+				<div class="az-firm-right">
+					<span class="az-firm-right1 az-margin-top8 az-xs-margin-top0">Потолок Эверест</span>
+					<span class="az-firm-right2 az-margin-top8">
+						<span class="az-star-yellow2">&nbsp;</span>
+						<span class="az-star-yellow2">&nbsp;</span>
+						<span class="az-star-yellow2">&nbsp;</span>
+						<span class="az-star-grey2">&nbsp;</span>
+						<span class="az-star-grey2">&nbsp;</span>
+						<span class="az-firm-right2-inner">Средняя оценка 4.0</span>
+					</span>
+					<span class="az-firm-right3 az-margin-top8">Москва ул. Савельево 230 офис 32</span>
+					<span class="az-firm-right4 az-margin-top8">8 800 900-30-40</span>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="az-tovar-price2"><strong>200-290</strong>р</div>
+		<i class="clearfix"></i>
+	</div>
+	<div class="az-row az-zapis-border az-zapis-border_style">
+		<div>
+			<div class="az-kras-item">
+				<div class="az-kras-left">
+					<div class="az-img-box2 az-img-box2_style4 az-img-box2_style3">
+						<img src="img/az-kras4.jpg" alt="">
+					</div>
+				</div>
+				<div class="az-kras-right">
+					<span class="az-kras-right1">Потолочная краска для дерева</span>
+					<span class="az-kras-right2 az-margin-top10">Бежевый</span>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div>
+			<div class="az-firm-item az-firm-item_style">
+				<div class="az-firm-left">
+					<div class="az-img-box2 az-img-box2_style2 az-img-box2_style3">
+						<img src="img/comp3.jpg" alt="">
+					</div>
+				</div>
+				<div class="az-firm-right">
+					<span class="az-firm-right1 az-margin-top8 az-xs-margin-top0">Потолок Эверест</span>
+					<span class="az-firm-right2 az-margin-top8">
+						<span class="az-star-yellow2">&nbsp;</span>
+						<span class="az-star-yellow2">&nbsp;</span>
+						<span class="az-star-yellow2">&nbsp;</span>
+						<span class="az-star-grey2">&nbsp;</span>
+						<span class="az-star-grey2">&nbsp;</span>
+						<span class="az-firm-right2-inner">Средняя оценка 4.0</span>
+					</span>
+					<span class="az-firm-right3 az-margin-top8">Москва ул. Савельево 230 офис 32</span>
+					<span class="az-firm-right4 az-margin-top8">8 800 900-30-40</span>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="az-tovar-price2"><strong>200-290</strong>р</div>
+		<i class="clearfix"></i>
+	</div>
+	<div class="az-row az-zapis-border az-zapis-border_style">
+		<div>
+			<div class="az-kras-item">
+				<div class="az-kras-left">
+					<div class="az-img-box2 az-img-box2_style4 az-img-box2_style3">
+						<img src="img/az-kras3.jpg" alt="">
+					</div>
+				</div>
+				<div class="az-kras-right">
+					<span class="az-kras-right1">Потолочная краска для дерева</span>
+					<span class="az-kras-right2 az-margin-top10">Бежевый</span>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div>
+			<div class="az-firm-item az-firm-item_style">
+				<div class="az-firm-left">
+					<div class="az-img-box2 az-img-box2_style2 az-img-box2_style3">
+						<img src="img/comp2.jpg" alt="">
+					</div>
+				</div>
+				<div class="az-firm-right">
+					<span class="az-firm-right1 az-margin-top8 az-xs-margin-top0">Потолок Эверест</span>
+					<span class="az-firm-right2 az-margin-top8">
+						<span class="az-star-yellow2">&nbsp;</span>
+						<span class="az-star-yellow2">&nbsp;</span>
+						<span class="az-star-yellow2">&nbsp;</span>
+						<span class="az-star-grey2">&nbsp;</span>
+						<span class="az-star-grey2">&nbsp;</span>
+						<span class="az-firm-right2-inner">Средняя оценка 4.0</span>
+					</span>
+					<span class="az-firm-right3 az-margin-top8">Москва ул. Савельево 230 офис 32</span>
+					<span class="az-firm-right4 az-margin-top8">8 800 900-30-40</span>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="az-tovar-price2"><strong>200-290</strong>р</div>
+		<i class="clearfix"></i>
+	</div>
+	<div class="az-row az-zapis-border az-zapis-border_style">
+		<div>
+			<div class="az-kras-item">
+				<div class="az-kras-left">
+					<div class="az-img-box2 az-img-box2_style4 az-img-box2_style3">
+						<img src="img/az-kras2.jpg" alt="">
+					</div>
+				</div>
+				<div class="az-kras-right">
+					<span class="az-kras-right1">Потолочная краска для дерева</span>
+					<span class="az-kras-right2 az-margin-top10">Бежевый</span>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div>
+			<div class="az-firm-item az-firm-item_style">
+				<div class="az-firm-left">
+					<div class="az-img-box2 az-img-box2_style2 az-img-box2_style3">
+						<img src="img/comp1.jpg" alt="">
+					</div>
+				</div>
+				<div class="az-firm-right">
+					<span class="az-firm-right1 az-margin-top8 az-xs-margin-top0">Потолок Эверест</span>
+					<span class="az-firm-right2 az-margin-top8">
+						<span class="az-star-yellow2">&nbsp;</span>
+						<span class="az-star-yellow2">&nbsp;</span>
+						<span class="az-star-yellow2">&nbsp;</span>
+						<span class="az-star-grey2">&nbsp;</span>
+						<span class="az-star-grey2">&nbsp;</span>
+						<span class="az-firm-right2-inner">Средняя оценка 4.0</span>
+					</span>
+					<span class="az-firm-right3 az-margin-top8">Москва ул. Савельево 230 офис 32</span>
+					<span class="az-firm-right4 az-margin-top8">8 800 900-30-40</span>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="az-tovar-price2"><strong>200-290</strong>р</div>
+		<i class="clearfix"></i>
 	</div>
 </div>
