@@ -227,10 +227,22 @@ body, html {
   background: url(../img/az-star-yellow.png) no-repeat top left;
   display: inline-block; }
 
+.az-star-yellow2 {
+  width: 13px;
+  height: 14px;
+  background: url(../img/az-star-yellow2.png) no-repeat top left;
+  display: inline-block; }
+
 .az-star-grey {
   width: 11px;
   height: 12px;
   background: url(../img/az-star-grey.png) no-repeat top left;
+  display: inline-block; }
+
+.az-star-grey2 {
+  width: 13px;
+  height: 14px;
+  background: url(../img/az-star-grey2.png) no-repeat top left;
   display: inline-block; }
 
 /*otziv*/
@@ -253,6 +265,10 @@ body, html {
 .az-zapis-border_style:before {
   left: 0px;
   width: 100%; }
+
+.az-zapis-border_style2:before {
+  left: 0px;
+  width: calc(100%); }
 
 .az-zapis_style {
   padding: 16px 10px 16px 20px; }
@@ -480,16 +496,23 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%); }
 
+.az-img-box2_style2 {
+  height: 98px; }
+
 .az-tov-head1 {
-  margin-left: 17px;
-  padding: 0px 7px 0px 10px;
-  float: left;
-  background: #fff; }
+  padding: 0px 10px 0px 10px;
+  background: #fff;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px; }
 
 .az-tov-head2 {
   float: left;
   background: #fff;
-  padding: 0px 5px 0 7px; }
+  padding: 0px 5px 0 5px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px; }
 
 .az-add {
   float: right;
@@ -609,12 +632,48 @@ body, html {
 
 .az-firm-left {
   max-width: 120px;
-  margin: 0 auto;
-  outline: 1px solid red; }
+  margin: 0 auto; }
 
 .az-firm-right {
   width: 100%;
-  outline: 1px solid red; }
+  padding: 0 10px; }
+
+.az-firm-right1 {
+  font-family: "PFBeauSansPro-Book";
+  font-size: 20px;
+  color: #000;
+  display: block; }
+
+.az-firm-right2 {
+  display: block;
+  font-size: 0px; }
+  .az-firm-right2 span {
+    font-size: 11px; }
+  .az-firm-right2 .az-firm-right2-inner {
+    font-family: "PFBeauSansPro-Reg";
+    font-size: 11px;
+    color: #818487;
+    display: inline-block;
+    padding-left: 6px; }
+
+.az-firm-right3 {
+  font-family: "PFBeauSansPro-Reg";
+  font-size: 14px;
+  color: #444446;
+  display: block; }
+
+.az-firm-right4 {
+  font-family: "PFBeauSansPro-Book";
+  font-size: 15px;
+  color: #000;
+  display: block; }
+
+.az-firm-item {
+  position: relative;
+  padding-bottom: 25px; }
+
+.az-firm-items {
+  padding: 5px 5px; }
 
 /*catalogcomp*/
 /*margins*/
@@ -640,11 +699,17 @@ body, html {
 .az-margin-top10 {
   margin-top: 10px; }
 
+.az-margin-top8 {
+  margin-top: 8px; }
+
 .az-margin-top16 {
   margin-top: 16px; }
 
 .az-margin-bottom20 {
   margin-bottom: 20px; }
+
+.az-margin-bottom40 {
+  margin-bottom: 40px; }
 
 .az-margin-bottom25 {
   margin-bottom: 25px; }
@@ -656,6 +721,12 @@ body, html {
   margin: 0px 6px 0px 4px; }
 
 @media only screen and (min-width: 480px) {
+  .az-firm-items {
+    padding: 25px 25px; }
+
+  .az-xs-margin-top0 {
+    margin-top: 0px; }
+
   .az-pad {
     padding-left: 34px; }
 
@@ -681,7 +752,7 @@ body, html {
 
   .az-firm-right {
     width: 55%;
-    padding-left: 20px;
+    padding: 0 0 0 20px;
     float: left;
     min-width: calc(100% - 120px); }
 
@@ -689,6 +760,19 @@ body, html {
     padding-left: 28px;
     padding-right: 28px; } }
 @media only screen and (min-width: 768px) {
+  .az-tov-head1 {
+    margin: 0;
+    margin-left: 17px;
+    padding: 0px 7px 0px 10px;
+    float: left;
+    background: #fff; }
+
+  .az-tov-head2 {
+    margin: 0;
+    float: left;
+    background: #fff;
+    padding: 0px 5px 0 7px; }
+
   .az-sm-margin-top0 {
     margin-top: 0px; }
 
@@ -730,6 +814,10 @@ body, html {
   .header-buffer {
     height: 401px; } }
 @media only screen and (min-width: 1200px) {
+  .az-zapis-border_style2:before {
+    left: 0px;
+    width: calc(100% - 20px); }
+
   .az-col3 {
     width: 50%;
     float: left; }
