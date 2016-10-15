@@ -78,8 +78,138 @@
 
 /*============= single.php ================*/
 
-/*  Система голосования  */
+.ab-span-input{
+	padding-bottom:13px;
+	span{
+		font-family: "PFBeauSansPro-Reg";
+		font-size: 15px;
+		color:#000000;
+	}
+}
 
+.ab-podpis{
+	padding-bottom:12px;
+	span{
+		font-family: "PFBeauSansPro-Reg";
+		font-size: 11px;
+		color:#818487;
+	}
+}
+
+.vhod-bottom{
+	width: 100%;
+	display: -webkit-flex; 
+	display: flex; 
+	justify-content: space-between;
+	align-items: center;
+	height: 40px;
+	margin-bottom: 17px;
+}
+
+.vhod-bottom-2{
+	height: 100px;
+}
+
+.search-box{
+    width: 100%;
+}
+
+.ab-f{
+    display: block;
+    position: relative;
+    border-radius: 3px;
+    width: 100%;
+    height: 51px;
+    border: 1px solid #cbd1d6;
+    box-sizing: border-box;
+}
+
+form{
+	display: block;
+    border-radius: 3px;
+    width: 100%;
+    
+    border: 1px solid #cbd1d6;
+    box-sizing: border-box;
+}
+
+input[type="text"]{
+    width: 100%;
+    height: 49px;
+    line-height: 49px;
+    padding: 0px 34px;
+    border: none;
+    box-sizing: border-box;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    color: #97a3ad;
+    max-height: 100%;
+    max-width: 100%;
+    font-family: "OpenSans-Semibold";
+    outline: none !important;
+    letter-spacing: .02em;
+}
+
+.ab-ff{
+	width: 100%;
+    height: 97px;
+    overflow: hidden;
+    padding: 0px 7px;
+    border: none;
+    box-sizing: border-box;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    font-size: 14px;
+    color: #97a3ad;
+    font-family: "OpenSans-Semibold";
+    outline: none !important;
+    letter-spacing: .02em;
+	margin-bottom:20px;
+}
+
+.ab-span-input-2{
+	span:last-child{
+		font-size: 11px;
+		font-family: "PFBeauSansPro-Reg";
+		color: #818487;
+		padding-left:15px;
+	}
+}
+
+.ab-first-input{
+	display:inline-block;
+	position:relative;
+	z-index:10;
+}
+.ab-first-input:after{
+	position:absolute;
+	content:"";
+	background:url(../img/ab-chel.png) no-repeat left center;
+	z-index:20;
+	width:15px;
+	height:16px;
+	left:10px;
+	top:16px;
+}
+.ab-second-input:after{
+	position:absolute;
+	content:"";
+	background:url(../img/ab-em.png) no-repeat left center;
+	z-index:20;
+	width:18px;
+	height:13px;
+	left:10px;
+	top:18px;
+}
+
+/*  Система голосования  */
+.az-center5{
+	margin-top:2px !important;
+	margin-bottom:80px !important;
+}
 .az-center2{
 	margin-top:25px;
 	margin-bottom:31px;
@@ -94,6 +224,62 @@
 	    }
 	    .label1, .label2, .label3, .label4, .label5{
 	    	margin-left:2px;
+	        width: 23px !important;
+	        height: 22px;
+	        display: inline-block;
+	        background: url(../img/az-star-grey-2.png) no-repeat top center;
+	        cursor: pointer;
+	    }
+	    .radio1:checked ~ label,
+	    .radio2:checked ~ label,
+	    .radio3:checked ~ label,
+	    .radio4:checked ~ label,
+	    .radio5:checked ~ label{
+	        background: url(../img/az-star-yellow-2.png) no-repeat top center;
+	    }
+	    .radio1:checked ~ .label1 ~ label,
+	    .radio2:checked ~ .label2 ~ label,
+	    .radio3:checked ~ .label3 ~ label,
+	    .radio4:checked ~ .label4 ~ label,
+	    .radio5:checked ~ .label5 ~ label{
+	        background: url(../img/az-star-grey-2.png) no-repeat top center;
+	    }
+
+	}
+	.az-stars:hover{
+	    label{
+	        background: url(../img/az-star-yellow-2.png) no-repeat top center !important;
+	    }
+	    .label1:hover ~ label,
+	    .label2:hover ~ label,
+	    .label3:hover ~ label,
+	    .label4:hover ~ label,
+	    .label5:hover ~ label{
+	        background: url(../img/az-star-grey-2.png) no-repeat top center !important;
+	    }
+	}
+	span{
+		font-family: "MyriadPro-Regular";
+		font-size: 11px;
+		color: #818487;
+		display: block;
+	}
+}
+
+.az-center3{
+	margin-top:12px;
+	margin-bottom:31px;
+	.az-stars{
+	    display: inline-block;
+	    font-size: 0px;
+	    input[type="radio"]{
+	        display: none;
+	    }
+	    .az-none{
+	        display: none;
+	    }
+	    .label1, .label2, .label3, .label4, .label5{
+	    	margin-left:-10px;
 	        width: 23px !important;
 	        height: 22px;
 	        display: inline-block;
@@ -128,69 +314,9 @@
 	        background: url(../img/az-star-grey.png) no-repeat top center !important;
 	    }
 	}
-	span{
-		font-family: "MyriadPro-Regular";
-		font-size: 11px;
-		color: #818487;
-		display: block;
-	}
 }
 
-.az-center3{
-	margin-top:25px;
-	margin-bottom:31px;
-	.az-stars{
-	    display: inline-block;
-	    font-size: 0px;
-	    input[type="radio"]{
-	        display: none;
-	    }
-	    .az-none{
-	        display: none;
-	    }
-	    .label1, .label2, .label3, .label4, .label5{
-	    	margin-left:2px;
-	        width: 23px !important;
-	        height: 22px;
-	        display: inline-block;
-	        background: url(../img/ab-zv-grey.png) no-repeat top center;
-	        cursor: pointer;
-	    }
-	    .radio1:checked ~ label,
-	    .radio2:checked ~ label,
-	    .radio3:checked ~ label,
-	    .radio4:checked ~ label,
-	    .radio5:checked ~ label{
-	        background: url(../img/ab-zv-yellow.png) no-repeat top center;
-	    }
-	    .radio1:checked ~ .label1 ~ label,
-	    .radio2:checked ~ .label2 ~ label,
-	    .radio3:checked ~ .label3 ~ label,
-	    .radio4:checked ~ .label4 ~ label,
-	    .radio5:checked ~ .label5 ~ label{
-	        background: url(../img/ab-zv-grey.png) no-repeat top center;
-	    }
 
-	}
-	.az-stars:hover{
-	    label{
-	        background: url(../img/ab-zv-yellow.png) no-repeat top center !important;
-	    }
-	    .label1:hover ~ label,
-	    .label2:hover ~ label,
-	    .label3:hover ~ label,
-	    .label4:hover ~ label,
-	    .label5:hover ~ label{
-	        background: url(../img/ab-zv-grey.png) no-repeat top center !important;
-	    }
-	}
-	span{
-		font-family: "MyriadPro-Regular";
-		font-size: 11px;
-		color: #818487;
-		display: block;
-	}
-}
 
 .ab-single-img-1{
 	position:relative;
@@ -607,12 +733,20 @@
 
 		}
 	}
+	.ab-publish-2{
+		padding:0 15px;
+		margin-top: -28px;
+		padding-bottom:14px;
+	}       
 }
 
 .ab-single-wrap-2{
-		background:#F6F8F9 !important;
-	}
+	background:#F6F8F9 !important;
+}
 
+.ab-single-wrap-10{
+	padding-top:0 !important;
+}
 
 
 /*============= END single.php ================*/
