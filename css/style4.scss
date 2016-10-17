@@ -78,6 +78,20 @@
 
 /*============= single.php ================*/
 
+.ab-brad-crumps{
+	font-size:12px;
+	a{
+		color:#252728;
+		font-family: "PFBeauSansPro-Reg";
+		font-size: 13px;
+	}
+	span:last-child{
+		color:#5C5F62;
+		font-family: "PFBeauSansPro-Reg";
+		font-size: 12px;
+	}
+}
+
 .ab-span-input{
 	padding-bottom:13px;
 	span{
@@ -360,17 +374,7 @@
 			line-height: 25px;
 		}
 	}
-	.ab-brad-crumps{
-			a{
-				color:#252728;
-				font-family: "PFBeauSansPro-Reg";
-			}
-		
-		span:last-child{
-			color:#5C5F62;
-			font-family: "PFBeauSansPro-Reg";
-		}
-	}
+	
 
 	h1{
 	font-family: "Conv_MyriadPro-Regular";
