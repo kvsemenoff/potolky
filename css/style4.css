@@ -52,6 +52,17 @@
 
 /*============ END ab-footer =============*/
 /*============= single.php ================*/
+.ab-brad-crumps {
+  font-size: 12px; }
+  .ab-brad-crumps a {
+    color: #252728;
+    font-family: "PFBeauSansPro-Reg";
+    font-size: 13px; }
+  .ab-brad-crumps span:last-child {
+    color: #5C5F62;
+    font-family: "PFBeauSansPro-Reg";
+    font-size: 12px; }
+
 .ab-span-input {
   padding-bottom: 13px; }
   .ab-span-input span {
@@ -282,12 +293,6 @@
     font-size: 18px;
     color: #303032;
     line-height: 25px; }
-  .ab-single-wrap .ab-brad-crumps a {
-    color: #252728;
-    font-family: "PFBeauSansPro-Reg"; }
-  .ab-single-wrap .ab-brad-crumps span:last-child {
-    color: #5C5F62;
-    font-family: "PFBeauSansPro-Reg"; }
   .ab-single-wrap h1 {
     font-family: "Conv_MyriadPro-Regular";
     font-size: 33px;
