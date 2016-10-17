@@ -1,3 +1,12 @@
+<div class="az-breadcrumbs-outer">
+	<div class="ab-brad-crumps">
+		<a href="#">О потолках</a>
+		/
+		<a href="#">Статьи</a>
+		/
+		<span>Путь до внутренней страницы</span>
+	</div>
+</div>
 <h1 class="az-pad">Услуги и товары</h1>
 <div class="az-margin-top20">
 	<div class="az-col1">
