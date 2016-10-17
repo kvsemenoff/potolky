@@ -51,8 +51,8 @@ $(document).ready(function(){
         var left = $('.az-content-left .az-border');
         var right = $('.az-content-right .az-border');
         var height = Math.max(left.height(), right.height());
-        left.height(height);
-        right.height(height);
+        setTimeout(left.height(height), 500);
+        setTimeout(right.height(height), 500);
     }
 
  });

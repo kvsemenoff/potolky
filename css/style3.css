@@ -270,6 +270,9 @@ body, html {
   left: 0px;
   width: calc(100%); }
 
+.az-zapis-border_style3:before {
+  bottom: -1px; }
+
 .az-zapis_style {
   padding: 16px 10px 16px 20px; }
 
@@ -644,6 +647,16 @@ body, html {
     font-family: "PFBeauSansPro-SeBold";
     text-decoration: underline; }
 
+.az-col-firm2 {
+  font-family: "PFBeauSansPro-Reg";
+  font-size: 16px;
+  color: #5c5f62;
+  line-height: 40px; }
+  .az-col-firm2 span {
+    color: #000000;
+    font-family: "PFBeauSansPro-SeBold";
+    text-decoration: underline; }
+
 .az-firm-left {
   max-width: 120px;
   margin: 0 auto; }
@@ -746,12 +759,12 @@ body, html {
   background: #fff;
   z-index: 2; }
   .az-select select {
-    height: 40px;
+    height: 38px;
     width: 100%;
     border: none;
     background: transparent;
     outline: none;
-    padding: 0 15px;
+    padding: 0 30px 0 15px;
     font-family: "PFBeauSansPro-Reg";
     font-size: 14px;
     cursor: pointer;
@@ -798,7 +811,8 @@ body, html {
   border: 1px solid #d1d6d9;
   padding: 0 15px;
   font-family: "PFBeauSansPro-Reg";
-  font-size: 14px; }
+  font-size: 14px;
+  outline: none; }
 
 .az-search {
   background: #f3b217;
@@ -826,6 +840,24 @@ body, html {
   width: 100%;
   height: 570px; }
 
+/*map*/
+/*az-comp*/
+.az-comp {
+  padding: 45px 20px 0 20px; }
+
+.az-firm-item-outer {
+  padding: 20px 0 0 15px;
+  border: 2px solid transparent; }
+
+.az-firm-item-outer1 {
+  border: 2px solid #ffc300;
+  overflow: hidden; }
+
+.az-firm-item-outer2 {
+  border: 2px solid #e0e5eb;
+  overflow: hidden; }
+
+/*az-comp*/
 /*margins*/
 .az-margin-top--20px {
   position: relative;
@@ -884,6 +916,10 @@ body, html {
 
   .az-firm-items {
     padding: 25px 25px; }
+
+  .az-firm-items2 {
+    margin-top: 13px;
+    border-top: 1px solid #e9eff2; }
 
   .az-xs-margin-top0 {
     margin-top: 0px; }
@@ -1033,7 +1069,7 @@ body, html {
     max-height: 242px; }
 
   .header-buffer {
-    height: 401px; } }
+    height: 460px; } }
 @media only screen and (min-width: 1200px) {
   .az-zapis-border_style2:before {
     left: 0px;
