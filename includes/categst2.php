@@ -7,7 +7,7 @@
 		<span>Путь до внутренней страницы</span>
 	</div>
 </div>
-<h1 class="az-pad">Категории статей</h1>
+<h1 class="az-pad">Натежные потолки</h1>
 <span class="subtitle az-pad">более 230 статей</span>
 <ul class="az-cat-list az-cat-list2 az-margin-top10 az-margin-bottom20 az-pad">
 	<li><a href="#">Как сделать самому</a></li>

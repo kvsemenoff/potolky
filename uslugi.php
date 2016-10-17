@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Главная</title>
+	<title>Услуги и товары</title>
 
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
 	<link rel="stylesheet" href="libs/font-awesome/font-awesome.min.css" />
