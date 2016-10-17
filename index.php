@@ -48,7 +48,7 @@
 							<?php require_once('includes/vozniklivoprosi.php'); ?>
 							<?php require_once('includes/populstatii.php'); ?>
 							<?php require_once('includes/fotografii.php'); ?>
-							<?php require_once('includes/video.php'); ?>
+							<?php //require_once('includes/video.php'); ?>
 							<?php require_once('includes/tovari.php'); ?>
 							<?php require_once('includes/o-portale.php'); ?>
 						</div>

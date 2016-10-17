@@ -15,48 +15,39 @@
   border: 1px solid #fff; }
 
 .ah-bottomhead-box1-span {
-  display: block;
+  display: inline-block;
   font-family: "PFBeauSansPro-SeBold";
   color: #fff;
+  padding-left: 7px;
+  padding-right: 7px;
   background-color: #000;
-  font-size: 55px;
-  line-height: 60px;
+  font-size: 25px;
+  line-height: 40px;
   text-transform: uppercase;
   margin-bottom: 5px; }
 
-.ah-botspan {
-  width: 700px; }
-
-.ah-botspan1 {
-  width: 380px; }
-
-.ah-botspan2 {
-  width: 265px; }
-
 .ah-bottomhead-box2 {
-  width: 720px;
-  height: 185px;
   margin-top: 68px;
-  margin-left: 65px; }
+  margin-left: 15px;
+  font-size: 0; }
 
 .ah-bottomhead-info {
-  display: table;
-  width: 1031px;
-  height: 122px;
+  display: block;
+  width: 100%;
   background-color: #fff;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.11);
   padding: 30px;
   margin: 0 auto;
   margin-top: -50px; }
   .ah-bottomhead-info p {
-    display: table-cell;
+    display: block;
     font-family: "PFBeauSansPro-Reg";
     color: #2f2f30;
     font-size: 17px;
     line-height: 24px;
     vertical-align: middle; }
   .ah-bottomhead-info a {
-    display: table-cell;
+    display: block;
     width: 169px;
     height: 49px;
     background-color: #f3b217;
@@ -65,12 +56,14 @@
     color: #fff;
     font-size: 15px;
     line-height: 50px;
+    margin-top: 10px;
     text-transform: uppercase;
     text-align: center;
     vertical-align: middle; }
 
 .ah-head {
-  margin-top: 26px; }
+  margin-top: 26px;
+  margin-bottom: 36px; }
 
 .ah-logobox-table {
   display: block; }
@@ -138,18 +131,18 @@
     border-radius: 6px;
     outline: none; }
   .ah-head-form input[type="text"] {
-    padding: 0 5px;
-    height: 38px;
+    padding: 6px 30px 6px 5px;
     width: 100%;
     color: #5c5f62;
     font-family: "PFBeauSansPro-Reg";
     font-size: 13px;
+    line-height: 21px;
     outline: none;
     border: none; }
   .ah-head-form input[type="submit"] {
     position: absolute;
     top: 7px;
-    right: 0px;
+    right: 3px;
     width: 21px;
     height: 21px;
     background: url(../img/ah-top1.png) center center no-repeat;
@@ -157,20 +150,56 @@
     outline: none;
     cursor: pointer; }
 
+@media only screen and (min-width: 768px) {
+  .ah-bottomhead-info {
+    display: table;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.11);
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: -50px; }
+    .ah-bottomhead-info p {
+      display: table-cell;
+      font-family: "PFBeauSansPro-Reg";
+      color: #2f2f30;
+      font-size: 17px;
+      line-height: 24px;
+      vertical-align: middle; }
+    .ah-bottomhead-info a {
+      display: table-cell;
+      width: 169px;
+      height: 49px;
+      background-color: #f3b217;
+      border-radius: 6px;
+      font-family: "PFBeauSansPro-SeBold";
+      color: #fff;
+      font-size: 15px;
+      line-height: 50px;
+      text-transform: uppercase;
+      text-align: center;
+      vertical-align: middle; }
+
+  .ah-bottomhead-box2 {
+    margin-top: 68px;
+    margin-left: 65px;
+    font-size: 0; }
+
+  .ah-bottomhead-box1-span {
+    font-size: 55px;
+    line-height: 60px; } }
 @media only screen and (min-width: 992px) {
   .ah-head-form {
     margin-left: 8px; }
     .ah-head-form label {
       position: relative;
       display: inline-block;
-      width: 773px;
-      height: 38px;
       background-color: #fff;
       border: 1px solid #e2e5ef;
       border-radius: 6px;
       outline: none; }
     .ah-head-form input[type="text"] {
-      padding: 0 22px; }
+      padding: 6px 40px 6px 22px; }
     .ah-head-form input[type="submit"] {
       position: absolute;
       top: 7px;
@@ -226,5 +255,10 @@
     top: 19px;
     left: 22px;
     background: url(../img/ah-topbord.png) center center no-repeat; } }
+@media only screen and (min-width: 1200px) {
+  .ah-bottomhead-info {
+    display: table;
+    width: 1031px;
+    height: 122px; } }
 
 /*# sourceMappingURL=style2.css.map */

@@ -8,9 +8,12 @@
 				<div class="ah-bottomhead-box">
 					<div class="ah-bottomhead-box1">
 						<div class="ah-bottomhead-box2">
-							<span class="ah-bottomhead-box1-span ah-botspan">Множество вариантов</span> <!-- т.к. между ними отступы -->
-							<span class="ah-bottomhead-box1-span ah-botspan1">исполнения</span><!-- т.к. между ними отступы -->
-							<span class="ah-bottomhead-box1-span ah-botspan2">потолка</span>
+							<span class="ah-bottomhead-box1-span">Множество</span> <!-- т.к. между ними отступы -->
+							<span class="ah-bottomhead-box1-span">вариантов</span>
+							<br>
+							<span class="ah-bottomhead-box1-span">исполнения</span><!-- т.к. между ними отступы -->
+							<br>
+							<span class="ah-bottomhead-box1-span">потолка</span>
 						</div>
 					</div>	
 				</div>
