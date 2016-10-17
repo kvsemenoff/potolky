@@ -1,4 +1,4 @@
-<h1>Категории статей</h1>
+<h1 class="az-pad">Категории статей</h1>
 <div class="az-cats">
 	<div class="az-col1">
 		<div class="az-cat">

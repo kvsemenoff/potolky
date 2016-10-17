@@ -72,3 +72,14 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: "PFBeauSansPro-Light";
+    src: url('../fonts/PFBeauSansPro-Light/PFBeauSansPro-Light.eot');
+    src: local('☺'), url('../fonts/PFBeauSansPro-Light/PFBeauSansPro-Light.woff') format('woff'),
+    url('../fonts/PFBeauSansPro-Light/PFBeauSansPro-Light.ttf') format('truetype'),
+    url('../fonts/PFBeauSansPro-Light/PFBeauSansPro-Light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
