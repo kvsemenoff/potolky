@@ -370,7 +370,7 @@
 											<div class="search-box">
 												<form class="ab-f" action="#">
 													<label class="ab-first-input">
-														<input type="text" placeholder="floesdesign">
+														<input class="ab-in" type="text" placeholder="floesdesign">
 													</label>
 												</form>
 											</div>
@@ -384,7 +384,7 @@
 											<div class="search-box">
 												<form class="ab-f" action="#">
 													<label class="ab-second-input">
-														<input type="text" placeholder="">
+														<input class="ab-in" type="text" placeholder="">
 													</label>
 												</form>
 											</div>
