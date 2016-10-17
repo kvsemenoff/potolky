@@ -398,7 +398,7 @@
 									<div class="col-md-12 col-sm-12 col-xs-12">
 										<div class="vhod-bottom vhod-bottom-2">
 											<div class="search-box">
-												<form action="#">
+												<form class="ab-forma-1" action="#">
 													<label>
 														<textarea class="ab-ff" placeholder=""></textarea>
 													</label>
